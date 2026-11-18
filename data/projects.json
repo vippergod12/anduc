@@ -1,16 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Lorem ipsum 01",
-    "slug": "du-an-01",
+    "name": "Khu Điều Dưỡng Du Lịch Vũng Tàu Medicoast",
+    "slug": "medicoast-vung-tau",
     "category_id": 1,
-    "style": "Lorem",
-    "location": "Lorem ipsum, Dolor sit",
-    "area_sqm": 60,
-    "year_completed": 2020,
-    "budget_label": "Lorem ipsum",
-    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
-    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "status": "Từ năm 2002",
+    "short_desc": "Mô hình Khu Điều Dưỡng & Du Lịch Chăm Sóc Sức Khỏe Sau Điều Trị (After Care) đầu tiên tại Việt Nam.",
+    "long_desc": "Đầu tư mô hình du lịch kết hợp với y tế — người đi tiên phong trong ngành du lịch khám chữa bệnh tại Việt Nam. Khu Điều Dưỡng Du Lịch Vũng Tàu Medicoast khai trương ngày 11/02/2007 tại 165 Thùy Vân, Vũng Tàu (đối diện Tháp Tam Thắng) và hoạt động đến tháng 12/2015.",
     "cover_image": "",
     "gallery": [
       "",
@@ -18,246 +14,205 @@
       "",
       ""
     ],
+    "facts": [
+      {
+        "label": "Vốn đầu tư",
+        "value": "10 triệu USD"
+      },
+      {
+        "label": "Giai đoạn đầu tư",
+        "value": "2002 – 2014"
+      },
+      {
+        "label": "Khai trương",
+        "value": "11/02/2007"
+      },
+      {
+        "label": "Địa điểm",
+        "value": "165 Thùy Vân, Vũng Tàu"
+      },
+      {
+        "label": "Nhân sự",
+        "value": "180 (30 bác sĩ, 67 điều dưỡng)"
+      },
+      {
+        "label": "Lưu trú",
+        "value": "Khách sạn 142 phòng, 400 khách"
+      }
+    ],
     "highlights": [
-      "Lorem ipsum dolor sit amet",
-      "Consectetur adipiscing elit",
-      "Sed do eiusmod tempor",
-      "Ut labore et dolore magna"
+      "Năm 2008: thành viên Medical Tourism Association (Mỹ)",
+      "Phòng khám đa khoa với 11 khoa khám chữa bệnh",
+      "1 nhà hàng, khách sạn 142 phòng (sức chứa 400 khách du lịch)",
+      "Thời gian hoạt động: 11/02/2007 – 12/2015 (bán cơ sở Medicoast)"
+    ],
+    "sections": [
+      {
+        "title": "Giai đoạn 2 · 2025",
+        "text": "Medicoast tập trung chuẩn hóa và mở rộng dịch vụ theo tiêu chuẩn quốc tế, hướng tới cả khách hàng trong nước và quốc tế.",
+        "items": [
+          "Mở rộng dịch vụ chất lượng cao: chăm sóc sức khỏe cá nhân hóa đạt tiêu chuẩn quốc tế, phục vụ đa dạng khách hàng.",
+          "Xây dựng cộng đồng MPW: phát triển cộng đồng vững mạnh xoay quanh Medicoast Personalized Wellness để chia sẻ kiến thức và kinh nghiệm.",
+          "Tư vấn & kết nối chuỗi giá trị: kết nối doanh nghiệp trong chuỗi Du lịch – Nông nghiệp hữu cơ – Chăm sóc sức khỏe (trị liệu, yoga, thiền…)."
+        ]
+      },
+      {
+        "title": "Hỗ trợ cộng đồng MPW · 9/2025 – 12/2026",
+        "text": "",
+        "items": [
+          "Marketing sản phẩm/dịch vụ (AI Content)",
+          "Chiến lược quản trị & marketing",
+          "Sáng tạo sản phẩm đổi mới",
+          "Đào tạo báo cáo ESG",
+          "Kết nối giao thương hiệu quả"
+        ]
+      }
     ],
     "is_featured": true,
-    "is_hero": true,
     "sort_order": 1
   },
   {
     "id": 2,
-    "name": "Dolor sit 02",
-    "slug": "du-an-02",
-    "category_id": 2,
-    "style": "Ipsum",
-    "location": "Lorem ipsum, Dolor sit",
-    "area_sqm": 75,
-    "year_completed": 2021,
-    "budget_label": "Lorem ipsum",
-    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
-    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "name": "Làng Hạnh Phúc",
+    "slug": "lang-hanh-phuc",
+    "category_id": 1,
+    "status": "Đang triển khai",
+    "short_desc": "Mô hình kiến tạo hạnh phúc trong kỷ nguyên mới, tích hợp văn hóa cội nguồn. Mỗi địa phương một làng Hưu Trí.",
+    "long_desc": "Mô hình kiến tạo hạnh phúc trong kỷ nguyên mới, tích hợp văn hóa cội nguồn. Mỗi địa phương một làng Hưu Trí.",
     "cover_image": "",
-    "gallery": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "highlights": [
-      "Lorem ipsum dolor sit amet",
-      "Consectetur adipiscing elit",
-      "Sed do eiusmod tempor",
-      "Ut labore et dolore magna"
-    ],
+    "gallery": [],
+    "facts": [],
+    "highlights": [],
+    "sections": [],
     "is_featured": true,
-    "is_hero": false,
     "sort_order": 2
   },
   {
     "id": 3,
-    "name": "Amet consectetur 03",
-    "slug": "du-an-03",
-    "category_id": 3,
-    "style": "Dolor",
-    "location": "Lorem ipsum, Dolor sit",
-    "area_sqm": 90,
-    "year_completed": 2022,
-    "budget_label": "Lorem ipsum",
-    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
-    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "name": "Aurora Châu Đức & Di Sản Long Sơn",
+    "slug": "aurora-chau-duc-di-san-long-son",
+    "category_id": 2,
+    "status": "Đang triển khai",
+    "short_desc": "Xây dựng thương hiệu du lịch địa phương bằng văn hóa cội nguồn và quy hoạch bộ tiêu chuẩn du lịch sinh thái.",
+    "long_desc": "Xây dựng thương hiệu du lịch địa phương bằng văn hóa cội nguồn và quy hoạch bộ tiêu chuẩn du lịch sinh thái.",
     "cover_image": "",
-    "gallery": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "highlights": [
-      "Lorem ipsum dolor sit amet",
-      "Consectetur adipiscing elit",
-      "Sed do eiusmod tempor",
-      "Ut labore et dolore magna"
-    ],
+    "gallery": [],
+    "facts": [],
+    "highlights": [],
+    "sections": [],
     "is_featured": true,
-    "is_hero": false,
     "sort_order": 3
   },
   {
     "id": 4,
-    "name": "Adipiscing elit 04",
-    "slug": "du-an-04",
-    "category_id": 4,
-    "style": "Amet",
-    "location": "Lorem ipsum, Dolor sit",
-    "area_sqm": 105,
-    "year_completed": 2023,
-    "budget_label": "Lorem ipsum",
-    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
-    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "name": "Logistics Sức Khỏe",
+    "slug": "logistics-suc-khoe",
+    "category_id": 1,
+    "status": "Đang triển khai",
+    "short_desc": "Mô hình giải pháp tối ưu hóa chuỗi cung ứng dịch vụ y tế và lưu thông nông sản sạch.",
+    "long_desc": "Mô hình giải pháp tối ưu hóa chuỗi cung ứng dịch vụ y tế và lưu thông nông sản sạch.",
     "cover_image": "",
-    "gallery": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "highlights": [
-      "Lorem ipsum dolor sit amet",
-      "Consectetur adipiscing elit",
-      "Sed do eiusmod tempor",
-      "Ut labore et dolore magna"
-    ],
+    "gallery": [],
+    "facts": [],
+    "highlights": [],
+    "sections": [],
     "is_featured": true,
-    "is_hero": false,
     "sort_order": 4
   },
   {
     "id": 5,
-    "name": "Sed do eiusmod 05",
-    "slug": "du-an-05",
-    "category_id": 5,
-    "style": "Lorem",
-    "location": "Lorem ipsum, Dolor sit",
-    "area_sqm": 120,
-    "year_completed": 2024,
-    "budget_label": "Lorem ipsum",
-    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
-    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "name": "Heart Home (Du lịch Nông nghiệp & OCOP)",
+    "slug": "heart-home",
+    "category_id": 3,
+    "status": "Đang phát triển",
+    "short_desc": "Mô hình homestay “ngôi nhà thứ hai” khai thác bất động sản sinh thái gắn liền với du lịch nông nghiệp và sản phẩm OCOP địa phương.",
+    "long_desc": "Mô hình homestay “ngôi nhà thứ hai” khai thác bất động sản sinh thái gắn liền với du lịch nông nghiệp và sản phẩm OCOP địa phương.",
     "cover_image": "",
-    "gallery": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "highlights": [
-      "Lorem ipsum dolor sit amet",
-      "Consectetur adipiscing elit",
-      "Sed do eiusmod tempor",
-      "Ut labore et dolore magna"
-    ],
+    "gallery": [],
+    "facts": [],
+    "highlights": [],
+    "sections": [],
     "is_featured": true,
-    "is_hero": false,
     "sort_order": 5
   },
   {
     "id": 6,
-    "name": "Tempor incididunt 06",
-    "slug": "du-an-06",
-    "category_id": 1,
-    "style": "Ipsum",
-    "location": "Lorem ipsum, Dolor sit",
-    "area_sqm": 135,
-    "year_completed": 2020,
-    "budget_label": "Lorem ipsum",
-    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
-    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "name": "The Forest City (Thành phố Rừng)",
+    "slug": "the-forest-city",
+    "category_id": 3,
+    "status": "Đang phát triển",
+    "short_desc": "Mô hình đô thị sinh thái hiện đại hướng đến sự hòa hợp giữa con người và thiên nhiên.",
+    "long_desc": "Mô hình đô thị sinh thái hiện đại hướng đến sự hòa hợp giữa con người và thiên nhiên.",
     "cover_image": "",
-    "gallery": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "highlights": [
-      "Lorem ipsum dolor sit amet",
-      "Consectetur adipiscing elit",
-      "Sed do eiusmod tempor",
-      "Ut labore et dolore magna"
-    ],
+    "gallery": [],
+    "facts": [],
+    "highlights": [],
+    "sections": [],
     "is_featured": true,
-    "is_hero": false,
     "sort_order": 6
   },
   {
     "id": 7,
-    "name": "Ut labore 07",
-    "slug": "du-an-07",
+    "name": "Làng Tre La-Gi Resort Beach & Spa",
+    "slug": "lang-tre-la-gi-resort",
     "category_id": 2,
-    "style": "Dolor",
-    "location": "Lorem ipsum, Dolor sit",
-    "area_sqm": 150,
-    "year_completed": 2021,
-    "budget_label": "Lorem ipsum",
-    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
-    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "status": "Đang phát triển",
+    "short_desc": "Khu nghỉ dưỡng sinh thái ven biển kết hợp các dịch vụ spa và chăm sóc sức khỏe.",
+    "long_desc": "Khu nghỉ dưỡng sinh thái ven biển kết hợp các dịch vụ spa và chăm sóc sức khỏe.",
     "cover_image": "",
-    "gallery": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "highlights": [
-      "Lorem ipsum dolor sit amet",
-      "Consectetur adipiscing elit",
-      "Sed do eiusmod tempor",
-      "Ut labore et dolore magna"
-    ],
+    "gallery": [],
+    "facts": [],
+    "highlights": [],
+    "sections": [],
     "is_featured": false,
-    "is_hero": false,
     "sort_order": 7
   },
   {
     "id": 8,
-    "name": "Et dolore 08",
-    "slug": "du-an-08",
-    "category_id": 3,
-    "style": "Amet",
-    "location": "Lorem ipsum, Dolor sit",
-    "area_sqm": 165,
-    "year_completed": 2022,
-    "budget_label": "Lorem ipsum",
-    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
-    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "name": "Làng di sản văn hóa du lịch Nhà Lớn Long Sơn",
+    "slug": "lang-di-san-nha-lon-long-son",
+    "category_id": 2,
+    "status": "Đang phát triển",
+    "short_desc": "Dự án thương mại dịch vụ khai thác và bảo tồn di sản văn hóa du lịch địa phương.",
+    "long_desc": "Dự án thương mại dịch vụ khai thác và bảo tồn di sản văn hóa du lịch địa phương.",
     "cover_image": "",
-    "gallery": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "highlights": [
-      "Lorem ipsum dolor sit amet",
-      "Consectetur adipiscing elit",
-      "Sed do eiusmod tempor",
-      "Ut labore et dolore magna"
-    ],
+    "gallery": [],
+    "facts": [],
+    "highlights": [],
+    "sections": [],
     "is_featured": false,
-    "is_hero": false,
     "sort_order": 8
   },
   {
     "id": 9,
-    "name": "Magna aliqua 09",
-    "slug": "du-an-09",
-    "category_id": 4,
-    "style": "Lorem",
-    "location": "Lorem ipsum, Dolor sit",
-    "area_sqm": 180,
-    "year_completed": 2023,
-    "budget_label": "Lorem ipsum",
-    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
-    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "name": "Agrishare Việt Nam",
+    "slug": "agrishare-viet-nam",
+    "category_id": 3,
+    "status": "Đang phát triển",
+    "short_desc": "Nền tảng chia sẻ tài nguyên hỗ trợ kết nối và phát triển ngành nông nghiệp.",
+    "long_desc": "Nền tảng chia sẻ tài nguyên hỗ trợ kết nối và phát triển ngành nông nghiệp.",
     "cover_image": "",
-    "gallery": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "highlights": [
-      "Lorem ipsum dolor sit amet",
-      "Consectetur adipiscing elit",
-      "Sed do eiusmod tempor",
-      "Ut labore et dolore magna"
-    ],
+    "gallery": [],
+    "facts": [],
+    "highlights": [],
+    "sections": [],
     "is_featured": false,
-    "is_hero": false,
     "sort_order": 9
+  },
+  {
+    "id": 10,
+    "name": "Đề án Xây dựng Bộ tiêu chuẩn Du lịch Sinh thái",
+    "slug": "bo-tieu-chuan-du-lich-sinh-thai",
+    "category_id": 2,
+    "status": "Đang phát triển",
+    "short_desc": "Đề án nghiên cứu chuẩn hóa mô hình du lịch sinh thái và phát triển bền vững.",
+    "long_desc": "Đề án nghiên cứu chuẩn hóa mô hình du lịch sinh thái và phát triển bền vững.",
+    "cover_image": "",
+    "gallery": [],
+    "facts": [],
+    "highlights": [],
+    "sections": [],
+    "is_featured": false,
+    "sort_order": 10
   }
 ]

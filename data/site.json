@@ -1,38 +1,61 @@
 {
-  "name": "LOREM Studio",
-  "tagline": "Lorem ipsum dolor sit amet",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "name": "An Đức",
+  "legalName": "Công ty TNHH An Đức",
+  "tagline": "Kiến tạo hệ sinh thái sức khỏe & nông nghiệp xanh",
+  "description": "Công ty TNHH An Đức chuyên tư vấn phát triển dự án và doanh nghiệp trong các lĩnh vực du lịch y tế, chăm sóc sức khỏe chủ động, kinh tế bạc và nông nghiệp xanh — đồng hành cùng nhà đầu tư từ ý tưởng đến triển khai.",
   "url": "http://localhost:3000",
   "logo": {
-    "text": "LORE",
-    "accent": "M",
-    "sub": "Ipsum"
+    "text": "AN ",
+    "accent": "ĐỨC",
+    "sub": "Co., Ltd"
   },
   "contact": {
-    "zaloPhone": "0900000000",
+    "person": "Nguyễn Thị Mai",
+    "zaloPhone": "0913840828",
     "zaloUrl": "",
-    "hotline": "0900 000 000",
-    "email": "lorem@ipsum.com",
-    "address": "Lorem ipsum dolor, sit amet",
-    "workingHours": "Lorem — Ipsum: 08:00 → 18:00"
+    "phones": ["0913 840 828", "0918 904 343"],
+    "emails": ["mainguyensmi@gmail.com", "marigoldinvest@gmail.com"],
+    "address": "183 Nguyễn An Ninh, Phường Vũng Tàu, TP. Hồ Chí Minh"
   },
-  "zaloProjectMessage": "Lorem ipsum dolor sit amet: \"{name}\".",
+  "zaloProjectMessage": "Xin chào An Đức, tôi muốn được tư vấn về dự án \"{name}\".",
   "nav": [
     { "href": "/", "label": "Trang chủ" },
-    { "href": "/du-an", "label": "Dự án" },
+    { "href": "/ve-chung-toi", "label": "Giới thiệu" },
     { "href": "/dich-vu", "label": "Dịch vụ" },
-    { "href": "/ve-chung-toi", "label": "Về chúng tôi" },
+    { "href": "/mo-hinh", "label": "Mô hình" },
+    { "href": "/du-an", "label": "Dự án" },
     { "href": "/lien-he", "label": "Liên hệ" }
   ],
   "navCta": {
-    "secondary": "Lorem ipsum",
-    "primary": "Dolor sit amet"
+    "secondary": "Chat Zalo",
+    "primary": "Đặt lịch tư vấn"
   },
   "footer": {
-    "servicesTitle": "Dịch vụ",
-    "spacesTitle": "Không gian",
+    "title": "CÔNG TY TNHH AN ĐỨC",
+    "lines": [
+      "Chuyên tư vấn phát triển dự án và doanh nghiệp",
+      "Đồng hành cùng nhà đầu tư từ ý tưởng đến triển khai",
+      "Định hướng kiến tạo hệ sinh thái sức khỏe & nông nghiệp xanh bền vững"
+    ],
+    "companyTitle": "Công ty",
+    "companyLinks": [
+      { "href": "/ve-chung-toi", "label": "Về An Đức" },
+      { "href": "/dich-vu", "label": "Dịch vụ" },
+      { "href": "/mo-hinh", "label": "Mô hình" },
+      { "href": "/du-an", "label": "Dự án" },
+      { "href": "/lien-he", "label": "Liên hệ" }
+    ],
+    "focusTitle": "Lĩnh vực",
     "contactTitle": "Liên hệ",
-    "zaloButton": "Lorem Zalo",
-    "callPrefix": "Gọi"
+    "zaloButton": "Tư vấn qua Zalo",
+    "callPrefix": "Hotline",
+    "copyright": "An Duc Co., Ltd. All rights reserved."
+  },
+  "cta": {
+    "eyebrow": "Hợp tác đầu tư",
+    "title": "Bắt Đầu Hành Trình *Cùng An Đức*",
+    "text": "Biến ý tưởng dự án thành phương án kinh doanh thực tiễn. An Đức sẽ giúp bạn làm rõ mục tiêu, kiểm chứng ma trận rủi ro và xác định lộ trình công việc tối ưu nhất trước khi xuống tiền đầu tư.",
+    "primary": { "label": "Đặt lịch tư vấn", "href": "/lien-he" },
+    "hotlineLabel": "Hotline"
   }
 }

@@ -1,37 +1,173 @@
 {
-  "header": {
-    "eyebrow": "Về chúng tôi",
-    "title": "Lorem ipsum dolor",
-    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  },
-  "story": {
+  "hero": {
+    "eyebrow": "Giới thiệu",
+    "title": "Công Ty TNHH *An Đức*",
+    "subtitle": "Đồng hành chiến lược từ ý tưởng, kiến tạo giá trị thực bền vững.",
+    "lead": "Công ty TNHH An Đức là đơn vị uy tín chuyên tư vấn phát triển dự án và doanh nghiệp trong các lĩnh vực du lịch y tế, chăm sóc sức khỏe chủ động, kinh tế bạc và nông nghiệp xanh. Đồng hành cùng nhà đầu tư từ ý tưởng đến triển khai, An Đức giúp tối ưu hóa nguồn lực, quản trị rủi ro và cung cấp cơ sở vững chắc để khách hàng tự tin đưa ra quyết định.",
     "image": "",
-    "eyebrow": "Lorem ipsum",
-    "title": "Lorem ipsum dolor sit amet",
-    "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    "facts": [
+      { "value": "20+", "label": "Năm kinh nghiệm thực chiến" },
+      { "value": "3", "label": "Trụ cột cốt lõi" },
+      { "value": "4", "label": "Nhóm dịch vụ tư vấn" },
+      { "value": "10", "label": "Dự án & đề án" }
     ],
-    "cta": { "label": "Lorem ipsum", "href": "/du-an" }
+    "journeyTitle": "Hành trình bốn mùa"
   },
-  "values": {
-    "eyebrow": "Lorem ipsum",
-    "title": "Lorem ipsum dolor sit",
-    "items": [
-      { "title": "Lorem ipsum", "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do." },
-      { "title": "Dolor sit", "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco." },
-      { "title": "Amet consectetur", "desc": "Duis aute irure dolor in reprehenderit in voluptate velit." },
-      { "title": "Adipiscing elit", "desc": "Excepteur sint occaecat cupidatat non proident, sunt in culpa." }
+
+  "spring": {
+    "label": "Mùa Xuân",
+    "theme": "Khởi nguồn",
+    "title": "Dự án thường không thất bại ở ý tưởng hay,\n*mà ở chỗ một đội ngũ đứng giữa để biến ý tưởng thành dòng tiền thật*",
+    "image": "",
+    "paragraphs": [
+      "Qua nhiều năm tư vấn và quản lý danh mục đầu tư, An Đức nhận ra một kịch bản thất bại quen thuộc: Chủ đầu tư sở hữu những ý tưởng rất sáng tạo và tâm huyết, nhưng đội ngũ thực thi lại chỉ tập trung vào mô hình trên giấy mà thiếu sự kiểm chứng thị trường và quản trị dòng tiền thực tế.",
+      "Kết quả là dự án vận hành đúng kế hoạch ban đầu, nhưng cạn nguồn vốn vì không tạo ra doanh thu hoặc không đánh đúng nhu cầu chi trả của khách hàng.",
+      "An Đức là nhà đầu tư tiên phong tại Việt Nam trong mô hình Du lịch chăm sóc sức khỏe & After Care với dự án Medicoast. Nhờ từng trực tiếp thực hiện trọn vẹn từ khâu đầu tư, đào tạo nhân sự đến vận hành thực tế, chúng tôi thấu hiểu sâu sắc mọi rào cản của doanh nghiệp.",
+      "An Đức đóng vai trò là *cầu nối chiến lược* — nơi quy tụ những chuyên gia am hiểu cả bài toán kinh doanh của nhà đầu tư lẫn ngôn ngữ thực chiến của thị trường, giúp kiểm chứng giả định, quản trị rủi ro và biến từng ý tưởng thành giá trị kinh tế bền vững."
+    ],
+    "team": {
+      "eyebrow": "Đội ngũ",
+      "title": "Đồng hành chiến lược, kiến tạo thành công.",
+      "text": "An Đức quy tụ đội ngũ chuyên gia giàu kinh nghiệm thực chiến trong các lĩnh vực quản trị kinh doanh, tài chính, marketing, công nghệ thông tin và pháp lý, cùng mạng lưới tư vấn chuyên môn trong và ngoài nước. Dưới sự dẫn dắt của Giám đốc Nguyễn Thị Mai, An Đức hoạt động theo phương châm \"Chất lượng – Dịch vụ tốt\", cam kết mang lại sự tin cậy tuyệt đối và giá trị thực cho đối tác.",
+      "members": [
+        { "name": "Nguyễn Thị Mai", "role": "CEO", "desc": "Định hướng dự án dựa trên năng lực thực tiễn & uy tín nghề nghiệp", "img": "" },
+        { "name": "Họ & Tên", "role": "Chức vụ 1 – Chức vụ 2", "desc": "Nghĩa vụ (làm gì)", "img": "" },
+        { "name": "Họ & Tên", "role": "Chức vụ 1 – Chức vụ 2", "desc": "Nghĩa vụ (làm gì)", "img": "" },
+        { "name": "Họ & Tên", "role": "Chức vụ 1 – Chức vụ 2", "desc": "Nghĩa vụ (làm gì)", "img": "" }
+      ]
+    }
+  },
+
+  "summer": {
+    "label": "Mùa Hạ",
+    "theme": "Rực rỡ",
+    "eyebrow": "Định hướng đầu tư",
+    "title": "Ba Trụ Cột Cốt Lõi *Của An Đức*",
+    "lead": "Chúng tôi tập trung nguồn lực vào các giải pháp đón đầu xu hướng phát triển bền vững.",
+    "detailLabel": "Xem dự án"
+  },
+
+  "autumn": {
+    "label": "Mùa Thu",
+    "theme": "Kết trái",
+    "eyebrow": "Giá trị",
+    "title": "Kim chỉ nam đồng hành *cùng mọi dự án*",
+    "lead": "Từ kinh nghiệm thực chiến và tư duy quản trị rủi ro dòng tiền, chúng tôi kiến tạo những giá trị thực bền vững cho doanh nghiệp và cộng đồng.",
+    "values": [
+      {
+        "num": "01",
+        "title": "Thực chứng & Thực chiến",
+        "desc": "Không chạy theo lý thuyết suông hay đi tắt đón đầu rủi ro. Mọi giải pháp tư vấn đều dựa trên khảo sát thực địa, kiểm chứng nhu cầu thị trường và tối ưu hóa nguồn lực.",
+        "quote": "Kinh nghiệm thực chiến là chất liệu để tạo ra giá trị mới.",
+        "image": "",
+        "imageAlt": "Biểu đồ khảo sát thực tế / Mô hình dòng tiền"
+      },
+      {
+        "num": "02",
+        "title": "Tận tâm & Trách nhiệm",
+        "desc": "Làm việc như người nhà, đặt trọn chữ Tín và sự an tâm của khách hàng lên hàng đầu. An Đức đồng hành gỡ rối từ chiến lược tài chính, vận hành nhân sự đến xây dựng thương hiệu.",
+        "quote": "Chất lượng – Dịch vụ tốt đặt sẵn niềm tin vững chắc trong tâm khách hàng.",
+        "image": "",
+        "imageAlt": "Đội ngũ chuyên gia họp bàn, tương tác với đối tác"
+      },
+      {
+        "num": "03",
+        "title": "Hiệu quả toàn diện",
+        "desc": "Hướng tới tác động đa chiều: tăng trưởng kinh tế, chăm sóc sức khỏe cộng đồng, giáo dục thực hành và phát triển văn hóa sinh thái bản địa.",
+        "quote": "Tạo ra dòng tiền bền vững và giá trị nhân văn cho xã hội.",
+        "image": "",
+        "imageAlt": "Sơ đồ tác động toàn diện Kinh tế – Xã hội – Giáo dục – Y tế"
+      },
+      {
+        "num": "04",
+        "title": "Tỉnh thức & Bền vững",
+        "desc": "Lấy cảm hứng từ mô hình Tảng băng trôi (Thân – Tâm – Trí). Giữ sức bền, biết dừng đúng lúc để triệt tiêu rủi ro và nuôi dưỡng năng lực cốt lõi cho đường dài.",
+        "quote": "Sống chậm, tư duy sâu để đi đường dài cùng nhà đầu tư.",
+        "image": "",
+        "imageAlt": "Mô hình tảng băng trôi Thân – Tâm – Trí / Không gian nghỉ dưỡng sinh thái"
+      }
     ]
   },
-  "team": {
-    "eyebrow": "Lorem ipsum",
-    "title": "Lorem ipsum *dolor sit*",
-    "members": [
-      { "name": "Lorem Ipsum", "role": "Dolor sit amet", "img": "" },
-      { "name": "Dolor Sit", "role": "Consectetur adipiscing", "img": "" },
-      { "name": "Amet Elit", "role": "Sed do eiusmod", "img": "" },
-      { "name": "Tempor Magna", "role": "Ut labore et dolore", "img": "" }
+
+  "winter": {
+    "label": "Mùa Đông",
+    "theme": "Ươm mầm",
+    "eyebrow": "Đồng hành toàn diện",
+    "title": "Cam Kết Vững Chắc Trên *Mọi Chặng Đường Đầu Tư*",
+    "lead": "An Đức kiến tạo niềm tin tuyệt đối bằng năng lực thực chiến, đồng hành cùng quý đối tác từ những bước chân đầu tiên cho đến khi dự án gặt hái thành quả.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Tìm kiếm cơ hội",
+        "desc": "Nhận diện và đánh giá tiềm năng thị trường, chọn lọc các dự án đón đầu xu thế (du lịch sức khỏe, kinh tế bạc, nông nghiệp xanh)."
+      },
+      {
+        "num": "02",
+        "title": "Khảo sát thực trạng",
+        "desc": "Thu thập dữ liệu, phân tích thực tế địa bàn và kiểm chứng các giả định chiến lược."
+      },
+      {
+        "num": "03",
+        "title": "Thiết kế phương án",
+        "desc": "Xây dựng mô hình kinh doanh, tài chính và tối ưu hóa nguồn lực triển khai."
+      },
+      {
+        "num": "04",
+        "title": "Quản trị dòng tiền",
+        "desc": "Kiểm soát chi phí, dòng tiền thu – chi để đảm bảo an toàn tài chính và triệt tiêu rủi ro lệch pha."
+      },
+      {
+        "num": "05",
+        "title": "Thoái vốn an toàn",
+        "desc": "Tư vấn lộ trình và thời điểm cơ cấu lại danh mục hoặc thoái vốn hiệu quả, bảo toàn nguồn vốn cho nhà đầu tư."
+      }
+    ]
+  },
+
+  "partners": {
+    "eyebrow": "Đối tác",
+    "title": "Đồng hành cùng *các đối tác uy tín*",
+    "groups": [
+      {
+        "label": "Đang hợp tác",
+        "items": [
+          {
+            "name": "Công ty Cổ phần Truyền thông ZEM",
+            "en": "Zem Media JSC",
+            "url": "https://www.zemmedia.vn/",
+            "logo": "/images/partners/zem-media.png"
+          },
+          {
+            "name": "Hutech, Trường Đại học Công nghệ TP.HCM",
+            "en": "",
+            "url": "",
+            "logo": "/images/partners/hutech.png"
+          },
+          {
+            "name": "Hutech, Trường Y và Khoa học Sức khỏe",
+            "en": "",
+            "url": "",
+            "logo": "/images/partners/hutech-medicine.png"
+          },
+          {
+            "name": "Viện Y học Gia đình Việt Nam",
+            "en": "Vietnam Institute of Family Medicine",
+            "url": "https://vifmed.edu.vn",
+            "logo": "/images/partners/vifmed.png"
+          }
+        ]
+      },
+      {
+        "label": "Đã hợp tác",
+        "items": [
+          {
+            "name": "Công ty Tư vấn Kiến trúc, Xây dựng Hạ tầng Đá Vàng",
+            "en": "Yellowstone Consultants Pty Ltd",
+            "url": "https://www.ysc.com.au/",
+            "logo": "/images/partners/yellowstone.png"
+          }
+        ]
+      }
     ]
   }
 }

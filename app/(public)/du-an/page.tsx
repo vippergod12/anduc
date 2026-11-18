@@ -5,7 +5,8 @@ import ProjectCard from '@/components/ProjectCard'
 
 export const metadata: Metadata = {
   title: 'Dự án',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  description:
+    'Các dự án và đề án An Đức đầu tư, nghiên cứu và phát triển trong ba lĩnh vực: sức khỏe & y tế, du lịch nghỉ dưỡng, nông nghiệp xanh.',
 }
 
 interface PageProps {
@@ -22,23 +23,24 @@ export default function ProjectsPage({ searchParams }: PageProps) {
     <>
       <div className="page-header">
         <div className="container">
-          <span className="eyebrow">Lorem ipsum</span>
-          <h1>Lorem ipsum dolor sit</h1>
+          <span className="eyebrow">Năng lực & dự án</span>
+          <h1>Dự án</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
+            Các dự án và đề án An Đức đầu tư, nghiên cứu và phát triển — từ tổ hợp Medicoast tiên
+            phong đến các mô hình sinh thái đang triển khai.
           </p>
         </div>
       </div>
 
       <section className="section-tight">
         <div className="container">
-          <form className="filter-search" method="GET" action="/du-an">
+          <form className="filter-search" method="GET" action="/du-an" role="search">
             {activeCat && <input type="hidden" name="category" value={activeCat} />}
             <input
               type="search"
               name="q"
-              placeholder="Tìm theo tên dự án, vị trí, phong cách..."
+              aria-label="Tìm dự án"
+              placeholder="Tìm theo tên dự án, lĩnh vực, trạng thái..."
               defaultValue={q}
             />
             <button type="submit" className="btn btn-primary">
@@ -64,8 +66,8 @@ export default function ProjectsPage({ searchParams }: PageProps) {
 
           {projects.length === 0 ? (
             <div className="empty">
-              <strong>Chưa có dự án nào</strong>
-              Vui lòng thử bộ lọc khác hoặc{' '}
+              <strong>Không tìm thấy dự án phù hợp</strong>
+              Vui lòng thử từ khóa khác hoặc{' '}
               <Link href="/du-an" style={{ color: 'var(--gold-600)' }}>
                 xem tất cả dự án
               </Link>

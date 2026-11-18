@@ -20,13 +20,16 @@ npm run build      # build production (kiểm tra lỗi TypeScript luôn)
 
 | File                   | Nội dung                                                                     |
 | ---------------------- | ---------------------------------------------------------------------------- |
-| `data/site.json`       | Tên thương hiệu, logo, mô tả SEO, hotline, email, địa chỉ, Zalo, menu        |
-| `data/home.json`       | Trang chủ: hero, marquee, dịch vụ, danh mục, nổi bật, câu chuyện, quy trình, đánh giá, CTA |
-| `data/categories.json` | Danh mục (mỗi danh mục có trang `/danh-muc/<slug>`)                          |
-| `data/projects.json`   | Dự án/sản phẩm (mỗi dự án có trang `/du-an/<slug>`)                          |
-| `data/services.json`   | Trang `/dich-vu`                                                             |
-| `data/about.json`      | Trang `/ve-chung-toi`                                                        |
+| `data/site.json`       | Tên công ty, logo, menu, liên hệ (SĐT, email, địa chỉ, Zalo), footer, khối CTA "Hợp tác đầu tư" dùng chung |
+| `data/home.json`       | Trang chủ: hero, về chúng tôi, đối tượng phục vụ, dịch vụ, lĩnh vực, quy trình 4 bước, dự án tiêu biểu |
+| `data/categories.json` | 3 lĩnh vực / "Ba trụ cột cốt lõi" (mỗi lĩnh vực có trang `/danh-muc/<slug>`) |
+| `data/projects.json`   | 10 dự án (mỗi dự án có trang `/du-an/<slug>`)                                |
+| `data/services.json`   | Trang `/dich-vu`: 2 mảng tư vấn, 4 nhóm dịch vụ, sản phẩm bàn giao           |
+| `data/models.json`     | Trang `/mo-hinh`: Tảng băng trôi (Thân – Tâm – Trí), Làng sinh thái vòng đời |
+| `data/about.json`      | Trang `/ve-chung-toi` — "Hành trình bốn mùa": câu chuyện, đội ngũ, giá trị, lộ trình, đối tác |
 | `data/contact.json`    | Trang `/lien-he` và form liên hệ                                             |
+
+Logo đối tác nằm trong `public/images/partners/`.
 
 ### Cú pháp chữ trong tiêu đề
 
@@ -48,7 +51,13 @@ Copy một object trong `data/projects.json` rồi sửa các trường:
 - `slug`: không trùng, không dấu, nối bằng gạch ngang. Slug chính là đường dẫn trang.
 - `category_id`: trỏ tới `id` trong `categories.json`.
 
-Các cờ: `is_featured: true` để hiện ở mục "Nổi bật" trang chủ, `is_hero: true` để lấy ảnh bìa làm nền hero (nếu `home.json → hero.image` đang trống). `sort_order` dùng để sắp xếp thứ tự.
+Các trường khác:
+- `status`: trạng thái, ví dụ "Đang triển khai".
+- `facts`: thông tin nhanh ở khung bên phải trang chi tiết, dạng `{ "label", "value" }`.
+- `highlights`: danh sách điểm nhấn.
+- `sections`: các mục nội dung thêm, dạng `{ "title", "text", "items" }`.
+- `is_featured: true`: hiện ở mục "Dự án tiêu biểu" trên trang chủ.
+- `sort_order`: thứ tự sắp xếp.
 
 ### Thêm trường dữ liệu mới
 

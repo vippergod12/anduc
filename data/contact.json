@@ -1,24 +1,54 @@
 {
   "header": {
-    "eyebrow": "Liên hệ",
-    "title": "Lorem ipsum dolor sit",
-    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "eyebrow": "Trao Đổi Dự Án",
+    "title": "Liên Hệ Đặt Lịch Tư Vấn Đầu Tiên",
+    "lead": "Buổi làm việc đầu tiên tập trung vào mục tiêu kinh doanh, địa điểm, ngân sách dự kiến và nguồn lực sẵn có. An Đức sẽ gửi đề cương công việc, sản phẩm bàn giao, tiến độ và chi phí tư vấn minh bạch."
   },
-  "formTitle": "Lorem ipsum dolor",
-  "infoTitle": "Thông tin liên hệ",
-  "zaloLabel": "Lorem Zalo",
+  "formTitle": "Gửi Yêu Cầu Tư Vấn",
+  "info": {
+    "title": "Thông tin liên hệ",
+    "items": [
+      { "type": "address", "label": "Địa chỉ trụ sở", "icon": "" },
+      { "type": "phone", "label": "Điện thoại / Zalo", "icon": "" },
+      { "type": "email", "label": "Email liên hệ", "icon": "" }
+    ]
+  },
+  "zaloLabel": "Nhắn Zalo cho An Đức",
   "promo": {
-    "title": "Lorem ipsum dolor",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit:",
-    "items": ["Lorem ipsum dolor sit", "Amet consectetur adipiscing", "Sed do eiusmod tempor"]
+    "title": "Buổi tư vấn đầu tiên",
+    "text": "Những nội dung An Đức sẽ cùng bạn làm rõ:",
+    "items": [
+      "Mục tiêu kinh doanh và địa điểm dự kiến",
+      "Ngân sách dự kiến và nguồn lực sẵn có",
+      "Đề cương công việc và sản phẩm bàn giao",
+      "Tiến độ thực hiện và chi phí tư vấn minh bạch"
+    ]
   },
   "form": {
-    "spaceTypes": ["Lorem ipsum", "Dolor sit", "Amet consectetur", "Adipiscing elit", "Khác"],
-    "styles": ["Lorem", "Ipsum", "Dolor", "Sit amet"],
-    "submitLabel": "Gửi yêu cầu",
-    "note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "successTitle": "Lorem ipsum!",
-    "successText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-    "zaloGreeting": "Lorem ipsum!"
+    "fields": {
+      "name": { "label": "Họ và tên *", "placeholder": "Nguyễn Văn A" },
+      "phone": { "label": "SĐT / Zalo *", "placeholder": "0912 345 678" },
+      "email": { "label": "Email", "placeholder": "tenban@email.com" },
+      "channel": {
+        "label": "Lĩnh vực quan tâm",
+        "placeholder": "— Chọn lĩnh vực —",
+        "options": [
+          "Tư vấn Dự án Sức khỏe & Du lịch Y tế",
+          "Mô hình Kinh tế bạc & Chăm sóc người cao tuổi",
+          "Phát triển Thương hiệu nông nghiệp & OCOP",
+          "Tư vấn Quản trị Doanh nghiệp & Dòng tiền"
+        ]
+      },
+      "message": {
+        "label": "Lời nhắn hoặc thông tin sơ bộ về dự án",
+        "placeholder": "Chia sẻ ngắn về mục tiêu kinh doanh, địa điểm dự kiến, ngân sách và nguồn lực hiện có..."
+      }
+    },
+    "submitLabel": "Gửi yêu cầu tư vấn",
+    "note": "Sau khi bấm gửi, cửa sổ Zalo sẽ mở ra để bạn xác nhận nội dung với An Đức.",
+    "successTitle": "Cảm ơn bạn đã liên hệ!",
+    "successText": "An Đức đã ghi nhận thông tin và sẽ liên hệ lại để xác nhận lịch tư vấn đầu tiên. Cửa sổ Zalo vừa được mở để bạn gửi nội dung nhanh hơn.",
+    "resetLabel": "Gửi yêu cầu khác",
+    "zaloGreeting": "Xin chào An Đức, tôi muốn đặt lịch tư vấn đầu tiên."
   }
 }

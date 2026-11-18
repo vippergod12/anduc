@@ -1,0 +1,74 @@
+{
+  "header": {
+    "eyebrow": "Triết lý & phương pháp luận",
+    "title": "Mô Hình Cốt Lõi Của An Đức",
+    "lead": "Hai mô hình định hướng mọi dự án An Đức tư vấn: chiều sâu sức khỏe theo triết lý Thân – Tâm – Trí và hệ sinh thái làng tuần hoàn theo vòng đời con người."
+  },
+  "iceberg": {
+    "eyebrow": "Mô hình 1",
+    "title": "Mô Hình Tảng Băng Trôi *(Thân – Tâm – Trí)*",
+    "lead": "Ba tầng chiều sâu của sức khỏe: phần nhìn thấy chỉ là bề nổi, giá trị bền vững nằm ở tầng cảm xúc và triết lý vận hành.",
+    "hint": "Di chuột hoặc chạm vào từng tầng để xem chi tiết",
+    "layers": [
+      {
+        "id": "than",
+        "name": "Thân",
+        "percent": 10,
+        "level": "Tầng nổi",
+        "nature": "Hữu hình",
+        "desc": "Kiến trúc, cảnh quan, Spa, ẩm thực, Yoga, thiền, detox."
+      },
+      {
+        "id": "tam",
+        "name": "Tâm",
+        "percent": 60,
+        "level": "Tầng chìm",
+        "nature": "Cảm xúc",
+        "desc": "Không gian yên tĩnh, âm nhạc trị liệu, nghệ thuật, kết nối cộng đồng, chăm sóc tâm lý."
+      },
+      {
+        "id": "tri",
+        "name": "Trí",
+        "percent": 30,
+        "level": "Tầng sâu",
+        "nature": "Triết lý",
+        "desc": "Triết lý vận hành, văn hóa phục vụ, đào tạo nhân viên, lối sống tỉnh thức (mindfulness)."
+      }
+    ],
+    "banner": "Thân được chăm • Tâm được an • Trí được khai mở",
+    "bannerSub": "Chất lượng sống là hành trình nghỉ dưỡng và thức tỉnh."
+  },
+  "village": {
+    "eyebrow": "Mô hình 2",
+    "title": "Mô Hình Làng Sinh Thái Lõi – *Vòng Đời Tuần Hoàn*",
+    "lead": "Tích hợp Y tế – Giáo dục – Du lịch xanh – Nông nghiệp bền vững vào một hệ sinh thái trọn vẹn, đồng hành cùng con người qua mọi giai đoạn của cuộc đời.",
+    "hint": "Di chuột hoặc chạm vào từng giai đoạn để xem chi tiết",
+    "center": "Hệ Sinh Thái Lõi",
+    "stages": [
+      {
+        "id": "khoi-nguyen",
+        "name": "Khởi Nguyên",
+        "group": "Thai kỳ & Trẻ thơ",
+        "desc": "Chăm sóc mẹ & bé từ tuần 36, dinh dưỡng 0–6 tuổi."
+      },
+      {
+        "id": "uom-mam",
+        "name": "Ươm Mầm",
+        "group": "Học sinh & Sinh viên",
+        "desc": "Y tế học đường, kỹ năng xanh, Living Lab."
+      },
+      {
+        "id": "vung-chac",
+        "name": "Vững Chắc",
+        "group": "Trưởng thành & Gia đình",
+        "desc": "Việc làm, nông nghiệp thông minh OCOP, du lịch y tế."
+      },
+      {
+        "id": "an-nhien",
+        "name": "An Nhiên",
+        "group": "Tuổi già khỏe mạnh",
+        "desc": "Bác sĩ gia đình, Wellness Farm, Zen House."
+      }
+    ]
+  }
+}

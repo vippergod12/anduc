@@ -463,6 +463,10 @@ main {
   .nav-cta .btn:not(.always-show) { display: none; }
   .menu-toggle { display: inline-flex; }
 }
+/* Màn hình rất hẹp: ẩn nút CTA (đã có trong menu di động) để nút menu không bị đẩy ra ngoài */
+@media (max-width: 480px) {
+  .nav-cta .btn.always-show { display: none; }
+}
 
 /* Mobile drawer */
 .mobile-menu {
@@ -1346,3 +1350,265 @@ main {
   height: auto;
   border-radius: var(--radius);
 }
+
+/* =====================================================
+   Trang liên hệ — danh sách thông tin (ô icon + nhãn + giá trị)
+   ===================================================== */
+.contact-info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-info li {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.contact-info-icon {
+  flex: 0 0 56px;
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+.contact-info .img-ph.contact-info-icon {
+  background-color: var(--ink-600);
+  background-image: none;
+  color: rgba(251, 248, 242, 0.55);
+}
+.contact-info .img-ph.contact-info-icon svg { width: 22px; height: 22px; }
+.contact-info strong {
+  display: block;
+  color: var(--ink-900);
+  margin-bottom: 4px;
+}
+.contact-info span { color: var(--ink-700); line-height: 1.6; }
+.contact-info a { color: var(--ink-900); font-weight: 600; }
+.contact-info a:hover { color: var(--gold-600); }
+
+/* =====================================================
+   Dịch vụ dạng bảng 2×2 (components/home/Services.tsx)
+   ===================================================== */
+.services-grid.services-grid--2 { grid-template-columns: repeat(2, 1fr); }
+.services-grid--2 .service-item,
+.services-grid--2 .service-item:nth-child(3n),
+.services-grid--2 .service-item:nth-last-child(-n+3) {
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.services-grid--2 .service-item:nth-child(2n) { border-right: none; }
+.services-grid--2 .service-item:nth-last-child(-n+2) { border-bottom: none; }
+@media (max-width: 600px) {
+  .services-grid.services-grid--2 { grid-template-columns: 1fr; }
+  .services-grid--2 .service-item:nth-last-child(2) { border-bottom: 1px solid var(--border) !important; }
+}
+
+/* =====================================================
+   Đối tượng phục vụ (components/home/Audience.tsx)
+   ===================================================== */
+.audience-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.audience-card {
+  position: relative;
+  padding: 32px 28px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.audience-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+.audience-num {
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--cream-200);
+  color: var(--gold-700);
+  font-family: var(--font-num);
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.audience-card h3 { font-size: 1.25rem; margin: 0 0 10px; }
+.audience-card p { margin: 0; color: var(--ink-600); line-height: 1.7; }
+@media (max-width: 900px) { .audience-grid { grid-template-columns: 1fr; } }
+
+/* =====================================================
+   Lĩnh vực trọng tâm (components/home/FocusAreas.tsx)
+   ===================================================== */
+.focus-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--ink-900);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.focus-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+.focus-thumb { position: relative; aspect-ratio: 16 / 10; }
+.focus-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.focus-icon {
+  position: absolute;
+  left: 18px;
+  bottom: -22px;
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  background: var(--ink-900);
+  color: var(--gold-300);
+  box-shadow: var(--shadow);
+}
+.focus-icon--static { position: static; display: inline-grid; }
+.focus-body { padding: 36px 24px 24px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+.focus-body h3 { font-size: 1.3rem; margin: 0; }
+.focus-body p { margin: 0; color: var(--ink-600); line-height: 1.65; }
+.focus-more { margin-top: auto; padding-top: 8px; font-weight: 600; font-size: 14px; color: var(--gold-600); }
+.tag-row {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+.tag-row li {
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  font-size: 13.5px;
+  color: var(--ink-700);
+}
+
+/* =====================================================
+   Trang Dịch vụ (app/(public)/dich-vu)
+   ===================================================== */
+.svc-line {
+  position: relative;
+  display: block;
+  padding: clamp(28px, 4vw, 44px);
+  border-radius: var(--radius-lg);
+  background: var(--ink-900);
+  color: var(--cream-100);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.svc-line:nth-child(2) { background: linear-gradient(135deg, var(--gold-700), var(--gold-500)); }
+.svc-line:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.svc-line h2 { color: var(--cream-50); font-size: clamp(1.5rem, 2.8vw, 2.1rem); margin: 0 0 12px; max-width: 18ch; }
+.svc-line p { margin: 0; color: rgba(251, 248, 242, .8); line-height: 1.7; max-width: 46ch; }
+.svc-line-arrow { position: absolute; top: 28px; right: 32px; font-size: 1.6rem; color: var(--gold-300); }
+.svc-line:nth-child(2) .svc-line-arrow { color: var(--cream-50); }
+
+.svc-groups {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.svc-group {
+  display: flex;
+  gap: 20px;
+  padding: 28px;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  scroll-margin-top: calc(var(--nav-h) + 24px);
+}
+.svc-group:target { border-color: var(--gold-400); box-shadow: var(--shadow); }
+.svc-group-num {
+  flex: 0 0 auto;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 2.4rem;
+  line-height: 1;
+  color: var(--gold-500);
+}
+.svc-group h3 { font-size: 1.25rem; margin: 2px 0 8px; }
+.svc-group p { margin: 0; color: var(--ink-600); line-height: 1.7; }
+
+.svc-roadmap {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  position: relative;
+}
+.svc-roadmap::before {
+  content: '';
+  position: absolute;
+  top: 22px;
+  left: 12%;
+  right: 12%;
+  height: 2px;
+  background: var(--cream-300);
+}
+.svc-roadmap li { position: relative; text-align: center; }
+.svc-roadmap-dot {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--ink-900);
+  color: var(--gold-300);
+  font-family: var(--font-num);
+  font-weight: 700;
+  margin-bottom: 14px;
+  box-shadow: 0 0 0 6px var(--cream-100);
+}
+.svc-roadmap-step {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--gold-600);
+}
+.svc-roadmap h3 { font-size: 1.2rem; margin: 6px 0 8px; }
+.svc-roadmap p { margin: 0; color: var(--ink-600); font-size: 14.5px; line-height: 1.65; }
+
+.svc-deliverable { padding: 30px; display: flex; flex-direction: column; gap: 10px; }
+.svc-deliverable-num { font-family: var(--font-num); font-weight: 700; color: var(--gold-500); font-size: 1.1rem; }
+.svc-deliverable h3 { font-size: 1.25rem; margin: 0; }
+.svc-deliverable p { margin: 0; color: var(--ink-600); }
+
+@media (max-width: 900px) {
+  .svc-groups { grid-template-columns: 1fr; }
+  .svc-roadmap { grid-template-columns: repeat(2, 1fr); }
+  .svc-roadmap::before { display: none; }
+}
+@media (max-width: 600px) {
+  .svc-roadmap { grid-template-columns: 1fr; }
+}
+
+/* Font serif (Lora) khi in đậm + tabular-nums làm khoảng trắng giữa các từ bị giãn
+   ("Nguyễn  Thị  Mai") → chữ serif/đậm dùng số tỷ lệ thường */
+h1, h2, h3, h4, h5, h6, strong, b, .logo, svg text, .mh-list-name {
+  font-feature-settings: 'kern', 'liga', 'lnum';
+  font-variant-numeric: lining-nums proportional-nums;
+}
+
+/* Form: cho phép cột co lại để <select> có lựa chọn dài không đẩy tràn màn hình điện thoại */
+.form-row > *, .form-field { min-width: 0; }
+.form-field input, .form-field select, .form-field textarea { width: 100%; max-width: 100%; min-width: 0; }

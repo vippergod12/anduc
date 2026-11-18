@@ -1,6 +1,8 @@
+import { Fragment } from 'react'
 import type { Metadata } from 'next'
-import { ADDRESS, EMAIL, HOTLINE, ZALO_URL } from '@/lib/seo/siteConfig'
-import { contact, site } from '@/lib/data'
+import { ADDRESS, EMAIL, PHONES, ZALO_URL, telHref } from '@/lib/seo/siteConfig'
+import { contact } from '@/lib/data'
+import Img from '@/components/Img'
 import ContactForm from './ContactForm'
 
 export const metadata: Metadata = {
@@ -8,16 +10,28 @@ export const metadata: Metadata = {
   description: contact.header.lead,
 }
 
-const labelStyle = {
-  fontSize: 12,
-  letterSpacing: '0.18em',
-  textTransform: 'uppercase' as const,
-  marginBottom: 4,
+/** Giá trị của từng dòng thông tin — lấy từ data/site.json → contact */
+function renderValue(type: string) {
+  switch (type) {
+    case 'address':
+      return ADDRESS
+    case 'phone':
+      return PHONES.map((p, i) => (
+        <Fragment key={p}>
+          {i > 0 && ' – '}
+          <a href={telHref(p)}>{p}</a>
+        </Fragment>
+      ))
+    case 'email':
+      return <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+    default:
+      return null
+  }
 }
 
 // Nội dung trang: data/contact.json (+ thông tin liên hệ trong data/site.json)
 export default function ContactPage() {
-  const { header, formTitle, infoTitle, zaloLabel, promo, form } = contact
+  const { header, formTitle, info, zaloLabel, promo, form } = contact
   return (
     <>
       <div className="page-header">
@@ -38,37 +52,18 @@ export default function ContactPage() {
 
             <div>
               <div className="card" style={{ padding: 28, marginBottom: 16, background: 'var(--surface)' }}>
-                <h3 style={{ marginBottom: 16 }}>{infoTitle}</h3>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
-                  <div>
-                    <div className="muted" style={labelStyle}>
-                      Văn phòng
-                    </div>
-                    <strong>{ADDRESS}</strong>
-                  </div>
-                  <div>
-                    <div className="muted" style={labelStyle}>
-                      Hotline
-                    </div>
-                    <a href={`tel:${HOTLINE}`} style={{ color: 'var(--ink-900)', fontWeight: 600 }}>
-                      {HOTLINE}
-                    </a>
-                  </div>
-                  <div>
-                    <div className="muted" style={labelStyle}>
-                      Email
-                    </div>
-                    <a href={`mailto:${EMAIL}`} style={{ color: 'var(--ink-900)', fontWeight: 600 }}>
-                      {EMAIL}
-                    </a>
-                  </div>
-                  <div>
-                    <div className="muted" style={labelStyle}>
-                      Giờ làm việc
-                    </div>
-                    <strong>{site.contact.workingHours}</strong>
-                  </div>
-                </div>
+                <h3 style={{ marginBottom: 20 }}>{info.title}</h3>
+                <ul className="contact-info">
+                  {info.items.map((item) => (
+                    <li key={item.type}>
+                      <Img src={item.icon} alt={item.label} className="contact-info-icon" />
+                      <div>
+                        <strong>{item.label}</strong>
+                        <span>{renderValue(item.type)}</span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
                 <a
                   className="btn btn-gold"
                   style={{ width: '100%', marginTop: 20 }}

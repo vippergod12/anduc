@@ -3,7 +3,7 @@ import type { HomeData } from '@/lib/types'
 import Img from '@/components/Img'
 import RichText from '@/components/RichText'
 
-export default function Story({ data }: { data: HomeData['story'] }) {
+export default function Story({ data }: { data: HomeData['about'] }) {
   return (
     <section className="section story">
       <div className="container">

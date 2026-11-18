@@ -1,42 +1,35 @@
 [
   {
     "id": 1,
-    "name": "Lorem ipsum",
-    "slug": "lorem-ipsum",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio praesent libero.",
+    "name": "Sức Khỏe & Y Tế",
+    "en": "Health",
+    "slug": "suc-khoe-y-te",
+    "icon": "health",
+    "description": "Chăm sóc y tế chủ động, điều dưỡng phục hồi sau điều trị và mô hình chăm sóc người cao tuổi ban ngày.",
+    "tags": ["Nền kinh tế bạc", "Mô hình chăm sóc Bán Trú"],
     "image_url": "",
     "sort_order": 1
   },
   {
     "id": 2,
-    "name": "Dolor sit",
-    "slug": "dolor-sit",
-    "description": "Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
+    "name": "Du Lịch Nghỉ Dưỡng",
+    "en": "Tourism",
+    "slug": "du-lich-nghi-duong",
+    "icon": "tourism",
+    "description": "Du lịch y tế, resort trị liệu và không gian nghỉ dưỡng chữa lành.",
+    "tags": ["Gắn liền NET ZERO & Văn hóa", "Mô hình Tảng băng trôi (Thân – Tâm – Trí)"],
     "image_url": "",
     "sort_order": 2
   },
   {
     "id": 3,
-    "name": "Amet consectetur",
-    "slug": "amet-consectetur",
-    "description": "Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "name": "Nông Nghiệp Xanh",
+    "en": "Green Agriculture",
+    "slug": "nong-nghiep-xanh",
+    "icon": "agriculture",
+    "description": "Mô hình trang trại sinh thái và nông nghiệp gắn liền văn hóa địa phương.",
+    "tags": ["Nông sinh đồng hành", "Khai thác giá trị thương hiệu địa phương"],
     "image_url": "",
     "sort_order": 3
-  },
-  {
-    "id": 4,
-    "name": "Adipiscing elit",
-    "slug": "adipiscing-elit",
-    "description": "Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora.",
-    "image_url": "",
-    "sort_order": 4
-  },
-  {
-    "id": 5,
-    "name": "Sed do eiusmod",
-    "slug": "sed-do-eiusmod",
-    "description": "Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor.",
-    "image_url": "",
-    "sort_order": 5
   }
 ]

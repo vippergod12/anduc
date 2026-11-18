@@ -9,12 +9,18 @@ export default function LogoMark({
   subColor?: string
 }) {
   const { logo } = siteJson
-  const accent: CSSProperties | undefined = accentColor ? { color: accentColor } : undefined
+  // Dấu cách cuối trong logo.text (vd "AN ") được đổi thành khoảng hẹp cố định,
+  // tránh bị letter-spacing của .logo kéo giãn
+  const spaced = logo.text.endsWith(" ")
+  const accent: CSSProperties = {
+    ...(accentColor ? { color: accentColor } : {}),
+    ...(spaced ? { marginLeft: "0.22em" } : {}),
+  }
   const sub: CSSProperties | undefined = subColor ? { color: subColor } : undefined
   return (
     <>
       <span>
-        {logo.text}
+        {logo.text.trimEnd()}
         <b style={accent}>{logo.accent}</b>
       </span>
       <small style={sub}>{logo.sub}</small>

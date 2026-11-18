@@ -1,84 +1,90 @@
 {
   "hero": {
-    "eyebrow": "LOREM IPSUM · EST 2020",
-    "title": "Lorem ipsum dolor sit *amet*\n& consectetur adipiscing.",
-    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "eyebrow": "Hồ sơ năng lực tư vấn phát triển dự án",
+    "title": "Kiến Tạo Hệ Sinh Thái\n*Sức Khỏe & Nông Nghiệp Xanh*",
+    "lead": "Từ ý tưởng sơ khai đến vận hành bền vững. Đồng hành cùng các Nhà đầu tư biến quỹ đất thành các tổ hợp y tế, nghỉ dưỡng và nông nghiệp sinh thái chuẩn quốc tế.",
     "image": "",
-    "primaryCta": { "label": "Lorem ipsum", "href": "/du-an" },
-    "secondaryCta": { "label": "Dolor sit amet", "href": "/lien-he" },
+    "primaryCta": { "label": "Nhận tư vấn", "href": "/lien-he" },
+    "secondaryCta": { "label": "Khám phá dịch vụ", "href": "/dich-vu" },
     "stats": [
-      { "value": "000+", "label": "Lorem" },
-      { "value": "00", "label": "Ipsum dolor" },
-      { "value": "00%", "label": "Sit amet" }
+      { "value": "20+", "label": "Năm kinh nghiệm" },
+      { "value": "10", "label": "Dự án & đề án" },
+      { "value": "3", "label": "Lĩnh vực trọng tâm" }
     ]
   },
-  "marquee": ["Lorem", "Ipsum", "Dolor", "Sit amet", "Consectetur", "Adipiscing", "Elit sed", "Eiusmod"],
-  "services": {
-    "eyebrow": "Lorem ipsum",
-    "title": "Lorem ipsum. *Dolor sit.*\nAmet consectetur adipiscing.",
-    "cta": { "label": "Lorem ipsum dolor", "href": "/dich-vu" },
-    "items": [
-      { "num": "01", "title": "Lorem ipsum", "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.", "href": "/dich-vu#dich-vu-01" },
-      { "num": "02", "title": "Dolor sit amet", "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.", "href": "/dich-vu#dich-vu-02" },
-      { "num": "03", "title": "Consectetur", "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.", "href": "/dich-vu#dich-vu-03" },
-      { "num": "04", "title": "Adipiscing elit", "desc": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.", "href": "/dich-vu#dich-vu-04" },
-      { "num": "05", "title": "Sed do eiusmod", "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.", "href": "/dich-vu#dich-vu-05" },
-      { "num": "06", "title": "Tempor incididunt", "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.", "href": "/dich-vu#dich-vu-06" }
-    ]
-  },
-  "categories": {
-    "eyebrow": "Lorem ipsum",
-    "title": "Lorem ipsum — *dolor sit amet*.",
-    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "countSuffix": "dự án"
-  },
-  "featured": {
-    "eyebrow": "Lorem ipsum",
-    "title": "Lorem ipsum *dolor sit amet*\nconsectetur adipiscing.",
-    "cta": { "label": "Lorem ipsum dolor", "href": "/du-an" },
-    "limit": 6
-  },
-  "story": {
+  "marquee": [
+    "Du lịch y tế",
+    "Chăm sóc sức khỏe chủ động",
+    "Kinh tế bạc",
+    "Nông nghiệp xanh",
+    "After Care",
+    "Du lịch sinh thái",
+    "OCOP",
+    "Wellness"
+  ],
+  "about": {
     "image": "",
-    "eyebrow": "Lorem ipsum",
-    "title": "Lorem — *ipsum dolor sit*\namet consectetur adipiscing.",
+    "eyebrow": "Về chúng tôi",
+    "title": "Đồng hành chiến lược từ ý tưởng,\n*kiến tạo giá trị thực* bền vững.",
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. *Excepteur sint occaecat cupidatat non proident.*"
+      "Công ty TNHH An Đức là đơn vị uy tín chuyên tư vấn phát triển dự án và doanh nghiệp trong các lĩnh vực du lịch y tế, chăm sóc sức khỏe chủ động, kinh tế bạc và nông nghiệp xanh.",
+      "Đồng hành cùng nhà đầu tư từ ý tưởng đến triển khai, An Đức giúp tối ưu hóa nguồn lực, quản trị rủi ro và ra quyết định chính xác."
     ],
     "stats": [
-      { "value": "000+", "label": "Lorem ipsum" },
-      { "value": "00", "label": "Dolor sit" },
-      { "value": "00", "label": "Amet consectetur" }
+      { "value": "20+", "label": "Năm kinh nghiệm thực chiến" },
+      { "value": "4", "label": "Nhóm dịch vụ tư vấn" },
+      { "value": "3", "label": "Trụ cột cốt lõi" }
     ],
-    "primaryCta": { "label": "Lorem ipsum", "href": "/ve-chung-toi" },
-    "secondaryCta": { "label": "Dolor sit →", "href": "/du-an" }
+    "primaryCta": { "label": "Tìm hiểu thêm", "href": "/ve-chung-toi" },
+    "secondaryCta": { "label": "Xem dự án →", "href": "/du-an" }
+  },
+  "audience": {
+    "eyebrow": "Đối tượng phục vụ",
+    "title": "Chuyên Môn Của Chúng Tôi *Dành Cho Ai*",
+    "lead": "An Đức đồng hành cùng các chủ thể mong muốn tối ưu hóa nguồn lực, chuyển đổi mô hình kinh doanh và kiến tạo giá trị khác biệt trên thị trường.",
+    "items": [
+      {
+        "title": "Nhà Đầu Tư & Phát Triển Dự Án",
+        "desc": "Biến quỹ đất thành tổ hợp sinh lời bền vững thông qua mô hình BĐS sức khỏe & sinh thái độc bản, khác biệt so với thị trường truyền thống."
+      },
+      {
+        "title": "Cơ Sở Y Tế & Doanh Nghiệp Du Lịch",
+        "desc": "Nâng cấp dịch vụ, mở rộng tệp khách hàng cao cấp bằng việc tích hợp hệ thống Du lịch Y tế (Medical Tourism), After Care và chăm sóc sức khỏe chủ động."
+      },
+      {
+        "title": "Chủ Thể Nông Nghiệp",
+        "desc": "Chuyển đổi từ sản xuất thuần túy sang dịch vụ trải nghiệm văn hóa địa phương & du lịch nông nghiệp xanh."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Dịch vụ của chúng tôi",
+    "title": "Dịch Vụ Tư Vấn *Toàn Diện*",
+    "lead": "An Đức cung cấp giải pháp tư vấn toàn diện qua 4 nhóm dịch vụ chính:",
+    "cta": { "label": "Xem chi tiết dịch vụ", "href": "/dich-vu" }
+  },
+  "focus": {
+    "eyebrow": "Lĩnh vực trọng tâm",
+    "title": "Giải Pháp Tư Vấn *Đón Đầu Xu Hướng*",
+    "lead": "Chúng tôi tập trung nguồn lực vào các giải pháp đón đầu xu hướng phát triển bền vững:",
+    "cta": { "label": "Xem tất cả", "href": "/du-an" },
+    "detailLabel": "Chi tiết"
   },
   "process": {
-    "eyebrow": "Lorem ipsum",
-    "title": "Lorem ipsum dolor sit amet",
-    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "eyebrow": "Quy trình chuẩn hóa",
+    "title": "Đồng Hành Giúp Chủ Đầu Tư *Ra Quyết Định Đúng*",
+    "lead": "An Đức áp dụng quy trình tư vấn bài bản từ việc khảo sát thực địa, kiểm chứng nhu cầu thị trường đến việc theo dõi thử nghiệm trước khi quyết định mở rộng.",
     "steps": [
-      { "num": "01", "title": "Lorem ipsum", "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor." },
-      { "num": "02", "title": "Dolor sit", "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi." },
-      { "num": "03", "title": "Amet consectetur", "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum." },
-      { "num": "04", "title": "Adipiscing elit", "desc": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia." }
+      { "num": "Bước 1", "title": "Xác định mục tiêu", "desc": "Thống nhất tầm nhìn, phạm vi công việc và thu thập đầy đủ dữ liệu đầu vào từ phía nhà đầu tư." },
+      { "num": "Bước 2", "title": "Khảo sát thị trường", "desc": "Tiến hành thực địa, kiểm chứng thực tế các nhu cầu và giả định quan trọng nhất của dự án." },
+      { "num": "Bước 3", "title": "Thiết kế phương án", "desc": "Lên bản vẽ mô hình hoạt động, bài toán tài chính và lộ trình thực thi chi tiết." },
+      { "num": "Bước 4", "title": "Bàn giao & Hiệu chỉnh", "desc": "Thống nhất bộ tiêu chí nghiệm thu theo hợp đồng, sẵn sàng đưa dự án vào triển khai thực tế." }
     ]
   },
-  "testimonials": {
-    "eyebrow": "Lorem ipsum",
-    "title": "Lorem ipsum — *dolor sit amet*.",
-    "items": [
-      { "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "name": "Lorem Ipsum", "role": "Dolor sit amet" },
-      { "quote": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "name": "Dolor Sit", "role": "Consectetur adipiscing" },
-      { "quote": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.", "name": "Amet Elit", "role": "Sed do eiusmod" }
-    ]
-  },
-  "cta": {
-    "eyebrow": "Lorem ipsum dolor",
-    "title": "Lorem ipsum dolor\n*sit amet consectetur?*",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "primaryCta": { "label": "Lorem ipsum", "href": "/lien-he" },
-    "zaloLabel": "Dolor sit Zalo"
+  "featured": {
+    "eyebrow": "Dự án tiêu biểu",
+    "title": "Năng lực *thực chứng*\nqua từng dự án",
+    "cta": { "label": "Xem tất cả dự án", "href": "/du-an" },
+    "limit": 6
   }
 }

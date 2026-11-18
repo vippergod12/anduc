@@ -16,8 +16,19 @@ export const ZALO_URL =
   process.env.NEXT_PUBLIC_ZALO_URL ||
   site.contact.zaloUrl ||
   `https://zalo.me/${ZALO_PHONE.replace(/[^0-9]/g, '')}`
-export const HOTLINE = process.env.NEXT_PUBLIC_HOTLINE || site.contact.hotline
-export const EMAIL = process.env.NEXT_PUBLIC_EMAIL || site.contact.email
+/** Danh sách số điện thoại (data/site.json → contact.phones) */
+export const PHONES: string[] = process.env.NEXT_PUBLIC_HOTLINE
+  ? [process.env.NEXT_PUBLIC_HOTLINE]
+  : site.contact.phones
+/** Số chính — dùng cho nút "Gọi" */
+export const HOTLINE = PHONES[0] ?? ''
+/** "0913 840 828" → "tel:0913840828" */
+export const telHref = (phone: string) => `tel:${phone.replace(/[^0-9+]/g, '')}`
+/** Danh sách email (data/site.json → contact.emails); email đầu là email chính */
+export const EMAILS: string[] = process.env.NEXT_PUBLIC_EMAIL
+  ? [process.env.NEXT_PUBLIC_EMAIL]
+  : site.contact.emails
+export const EMAIL = EMAILS[0] ?? ''
 export const ADDRESS = process.env.NEXT_PUBLIC_ADDRESS || site.contact.address
 
 export const NAV_LINKS = site.nav

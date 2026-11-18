@@ -1,17 +1,12 @@
 import Link from 'next/link'
-import { SITE_NAME, SITE_DESCRIPTION, ADDRESS, EMAIL, HOTLINE, ZALO_URL } from '@/lib/seo/siteConfig'
-import { getCategories, services, site } from '@/lib/data'
+import { EMAILS, HOTLINE, PHONES, ZALO_URL, telHref } from '@/lib/seo/siteConfig'
+import { getCategories, site } from '@/lib/data'
 import LogoMark from '@/components/Logo'
 
+// Nội dung footer: data/site.json → footer, contact
 export default function Footer() {
-  const year = new Date().getFullYear()
-  const serviceLinks = services.packs.map((p) => ({
-    href: `/dich-vu#${p.id}`,
-    label: p.title.replace(/^\d+\s*—\s*/, ''),
-  }))
-  const spaceLinks = getCategories()
-    .slice(0, 5)
-    .map((c) => ({ href: `/danh-muc/${c.slug}`, label: c.name }))
+  const { footer } = site
+  const focusLinks = getCategories().map((c) => ({ href: `/danh-muc/${c.slug}`, label: c.name }))
 
   return (
     <footer className="footer">
@@ -21,66 +16,73 @@ export default function Footer() {
             <div className="logo" style={{ color: 'var(--cream-50)', marginBottom: 18 }}>
               <LogoMark accentColor="var(--gold-300)" subColor="var(--cream-200)" />
             </div>
-            <p>{SITE_DESCRIPTION}</p>
+            <p style={{ fontWeight: 600, color: 'var(--cream-50)', letterSpacing: '0.04em', marginBottom: 8 }}>
+              {footer.title}
+            </p>
+            {footer.lines.map((line) => (
+              <p key={line} style={{ margin: '0 0 4px' }}>
+                {line}
+              </p>
+            ))}
 
             <div style={{ display: 'flex', gap: 12, marginTop: 20, flexWrap: 'wrap' }}>
               <a className="btn btn-gold btn-sm" href={ZALO_URL} target="_blank" rel="noopener">
-                {site.footer.zaloButton}
+                {footer.zaloButton}
               </a>
               <a
                 className="btn btn-outline btn-sm"
-                href={`tel:${HOTLINE}`}
+                href={telHref(HOTLINE)}
                 style={{ color: 'var(--cream-50)', borderColor: 'rgba(255,255,255,.2)' }}
               >
-                {site.footer.callPrefix} {HOTLINE}
+                {footer.callPrefix} {HOTLINE}
               </a>
             </div>
           </div>
 
           <div>
-            <h4>{site.footer.servicesTitle}</h4>
+            <h4>{footer.companyTitle}</h4>
             <ul>
-              {serviceLinks.slice(0, 5).map((s) => (
-                <li key={s.href}>
-                  <Link href={s.href}>{s.label}</Link>
+              {footer.companyLinks.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href}>{l.label}</Link>
                 </li>
               ))}
             </ul>
           </div>
 
           <div>
-            <h4>{site.footer.spacesTitle}</h4>
+            <h4>{footer.focusTitle}</h4>
             <ul>
-              {spaceLinks.map((s) => (
-                <li key={s.href}>
-                  <Link href={s.href}>{s.label}</Link>
+              {focusLinks.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href}>{l.label}</Link>
                 </li>
               ))}
             </ul>
           </div>
 
           <div>
-            <h4>{site.footer.contactTitle}</h4>
+            <h4>{footer.contactTitle}</h4>
             <ul>
-              <li>{ADDRESS}</li>
-              <li>
-                <a href={`tel:${HOTLINE}`}>{HOTLINE}</a>
-              </li>
-              <li>
-                <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
-              </li>
-              <li>
-                <a href={ZALO_URL} target="_blank" rel="noopener">
-                  Chat Zalo
-                </a>
-              </li>
+              <li>{site.contact.person}</li>
+              <li>{site.contact.address}</li>
+              {PHONES.map((p) => (
+                <li key={p}>
+                  <a href={telHref(p)}>{p}</a>
+                </li>
+              ))}
+              {EMAILS.map((e) => (
+                <li key={e}>
+                  <a href={`mailto:${e}`}>{e}</a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
 
         <div className="footer-bottom">
           <span>
-            © {year} {SITE_NAME}. All rights reserved.
+            © {new Date().getFullYear()} {footer.copyright}
           </span>
         </div>
       </div>

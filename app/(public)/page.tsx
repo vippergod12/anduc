@@ -1,27 +1,27 @@
-import { getCategories, getFeaturedProjects, getHeroProjects, home } from '@/lib/data'
+import { getCategories, getFeaturedProjects, home, services } from '@/lib/data'
 import Hero from '@/components/home/Hero'
 import Marquee from '@/components/home/Marquee'
-import Services from '@/components/home/Services'
-import CategoriesBento from '@/components/home/CategoriesBento'
-import FeaturedProjects from '@/components/home/FeaturedProjects'
-import Process from '@/components/home/Process'
 import Story from '@/components/home/Story'
-import Testimonials from '@/components/home/Testimonials'
-import BigCTA from '@/components/home/BigCTA'
+import Audience from '@/components/home/Audience'
+import Services from '@/components/home/Services'
+import FocusAreas from '@/components/home/FocusAreas'
+import Process from '@/components/home/Process'
+import FeaturedProjects from '@/components/home/FeaturedProjects'
+import CtaBlock from '@/components/CtaBlock'
 
-// Nội dung trang chủ: data/home.json (+ categories.json, projects.json)
+// Nội dung trang chủ: data/home.json (+ services.json, categories.json, projects.json, site.json → cta)
 export default function HomePage() {
   return (
     <>
-      <Hero data={home.hero} hero={getHeroProjects(1)} />
+      <Hero data={home.hero} />
       <Marquee items={home.marquee} />
-      <Services data={home.services} />
-      <CategoriesBento data={home.categories} categories={getCategories()} />
-      <FeaturedProjects data={home.featured} projects={getFeaturedProjects(home.featured.limit)} />
-      <Story data={home.story} />
+      <Story data={home.about} />
+      <Audience data={home.audience} />
+      <Services data={home.services} groups={services.groups} />
+      <FocusAreas data={home.focus} categories={getCategories()} />
       <Process data={home.process} />
-      <Testimonials data={home.testimonials} />
-      <BigCTA data={home.cta} />
+      <FeaturedProjects data={home.featured} projects={getFeaturedProjects(home.featured.limit)} />
+      <CtaBlock />
     </>
   )
 }

@@ -1,11 +1,11 @@
 import Link from 'next/link'
-import type { HomeData, Project } from '@/lib/types'
+import type { HomeData } from '@/lib/types'
 import Img from '@/components/Img'
 import RichText from '@/components/RichText'
 
-export default function Hero({ data, hero }: { data: HomeData['hero']; hero: Project[] }) {
-  // Ưu tiên ảnh trong home.json → ảnh bìa dự án is_hero → khung trống
-  const image = data.image || hero[0]?.cover_image || ''
+export default function Hero({ data }: { data: HomeData['hero'] }) {
+  // Ảnh nền: data/home.json → hero.image (để "" sẽ hiện khung trống)
+  const image = data.image
 
   return (
     <section className="hero">

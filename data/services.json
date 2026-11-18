@@ -1,54 +1,61 @@
 {
   "header": {
-    "eyebrow": "Lorem ipsum",
-    "title": "Lorem ipsum — dolor sit amet",
-    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "eyebrow": "Dịch vụ",
+    "title": "Dịch Vụ Tư Vấn Toàn Diện",
+    "lead": "An Đức cung cấp giải pháp tư vấn toàn diện qua 4 nhóm dịch vụ chính, đồng hành cùng nhà đầu tư từ ý tưởng đến triển khai."
   },
-  "packs": [
+  "lines": {
+    "eyebrow": "Hai mảng tư vấn",
+    "items": [
+      {
+        "title": "Tư vấn phát triển dự án",
+        "desc": "Du lịch y tế, kinh tế bạc (Silver economy) và nông nghiệp xanh — từ nghiên cứu ý tưởng đến phương án triển khai.",
+        "href": "/du-an"
+      },
+      {
+        "title": "Tư vấn phát triển doanh nghiệp",
+        "desc": "Quản trị doanh nghiệp và quản trị rủi ro dòng tiền, giúp tối ưu nguồn lực và ra quyết định chính xác.",
+        "href": "/lien-he"
+      }
+    ]
+  },
+  "groups": [
     {
-      "id": "dich-vu-01",
-      "title": "01 — Lorem ipsum",
-      "price": "Lorem",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "items": ["Lorem ipsum dolor", "Sit amet consectetur", "Adipiscing elit sed", "Do eiusmod tempor"]
+      "id": "nghien-cuu-danh-gia",
+      "num": "01",
+      "title": "Nghiên cứu & Đánh giá dự án",
+      "desc": "Khảo sát nhu cầu thị trường, phân tích hành vi khách hàng, đánh giá tính khả thi."
     },
     {
-      "id": "dich-vu-02",
-      "title": "02 — Dolor sit amet",
-      "price": "Ipsum",
-      "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
-      "items": ["Lorem ipsum dolor", "Sit amet consectetur", "Adipiscing elit sed", "Do eiusmod tempor"]
+      "id": "mo-hinh-kinh-doanh-tai-chinh",
+      "num": "02",
+      "title": "Mô hình Kinh doanh & Tài chính",
+      "desc": "Thiết kế đa dạng nguồn thu, dự báo dòng tiền, lập kế hoạch vốn & phân tích rủi ro."
     },
     {
-      "id": "dich-vu-03",
-      "title": "03 — Consectetur",
-      "price": "Dolor",
-      "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.",
-      "items": ["Lorem ipsum dolor", "Sit amet consectetur", "Adipiscing elit sed", "Do eiusmod tempor"]
+      "id": "van-hanh-nhan-luc",
+      "num": "03",
+      "title": "Vận hành & Nguồn nhân lực",
+      "desc": "Đề xuất quy trình chuẩn (SOP), khung năng lực & kế hoạch đào tạo chuyên môn y tế/dịch vụ."
     },
     {
-      "id": "dich-vu-04",
-      "title": "04 — Adipiscing elit",
-      "price": "Sit amet",
-      "desc": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.",
-      "items": ["Lorem ipsum dolor", "Sit amet consectetur", "Adipiscing elit sed", "Do eiusmod tempor"]
-    },
-    {
-      "id": "dich-vu-05",
-      "title": "05 — Sed do eiusmod",
-      "price": "Consectetur",
-      "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-      "items": ["Lorem ipsum dolor", "Sit amet consectetur", "Adipiscing elit sed", "Do eiusmod tempor"]
-    },
-    {
-      "id": "dich-vu-06",
-      "title": "06 — Tempor incididunt",
-      "price": "Adipiscing",
-      "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.",
-      "items": ["Lorem ipsum dolor", "Sit amet consectetur", "Adipiscing elit sed", "Do eiusmod tempor"]
+      "id": "marketing-thuong-hieu",
+      "num": "04",
+      "title": "Marketing & Thương hiệu",
+      "desc": "Định vị thương hiệu khác biệt, xây dựng kho nội dung giá trị & kênh tiếp cận khách hàng."
     }
   ],
-  "note": "* Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  "primaryCta": { "label": "Lorem ipsum dolor", "href": "/lien-he" },
-  "zaloLabel": "Sit amet Zalo"
+  "roadmap": {
+    "eyebrow": "Lộ trình hợp tác",
+    "title": "Lộ Trình Hợp Tác *Chuyên Nghiệp*"
+  },
+  "deliverables": {
+    "eyebrow": "Sản phẩm bàn giao",
+    "title": "Sản Phẩm Bàn Giao *Cốt Lõi*",
+    "items": [
+      { "title": "Cấu trúc Khách hàng & Dịch vụ", "desc": "" },
+      { "title": "Báo cáo Nguồn lực & Tài chính", "desc": "Ước tính CAPEX, OPEX, dự phóng dòng tiền." },
+      { "title": "Kế hoạch Hành động (Master Plan)", "desc": "" }
+    ]
+  }
 }

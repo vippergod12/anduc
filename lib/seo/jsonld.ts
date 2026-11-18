@@ -36,10 +36,8 @@ export function projectJsonLd(p: Project) {
     url: `${SITE_URL}/du-an/${p.slug}`,
     description: p.short_desc || p.long_desc || p.name,
     image: [p.cover_image, ...(p.gallery || [])].filter(Boolean),
-    dateCreated: p.year_completed ? `${p.year_completed}-01-01` : undefined,
-    locationCreated: p.location || undefined,
     creator: { '@id': `${SITE_URL}/#organization` },
-    keywords: [p.style, p.location, p.category_name].filter(Boolean).join(', '),
+    keywords: [p.category_name, p.status].filter(Boolean).join(', '),
   }
 }
 

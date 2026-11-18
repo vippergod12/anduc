@@ -4,27 +4,27 @@ import { useState } from 'react'
 import { zaloLinkFor } from '@/lib/utils/zalo'
 import type { ContactData } from '@/lib/types'
 
+// Nhãn, placeholder, lựa chọn: data/contact.json → form
 export default function ContactForm({ form }: { form: ContactData['form'] }) {
+  const f = form.fields
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
   const [email, setEmail] = useState('')
-  const [type, setType] = useState(form.spaceTypes[0] ?? '')
-  const [style, setStyle] = useState('')
-  const [area, setArea] = useState('')
+  const [channel, setChannel] = useState('')
   const [message, setMessage] = useState('')
   const [sent, setSent] = useState(false)
 
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    const body = `${form.zaloGreeting}
-- Họ tên: ${name}
-- SĐT: ${phone}
-- Email: ${email}
-- Loại không gian: ${type}
-- Phong cách: ${style}
-- Diện tích: ${area} m²
-- Yêu cầu: ${message}`
-    window.open(zaloLinkFor(body), '_blank')
+    const lines = [
+      form.zaloGreeting,
+      `- Họ tên: ${name}`,
+      `- SĐT: ${phone}`,
+      email && `- Email: ${email}`,
+      channel && `- ${f.channel.label}: ${channel}`,
+      message && `- Nội dung: ${message}`,
+    ].filter(Boolean)
+    window.open(zaloLinkFor(lines.join('\n')), '_blank')
     setSent(true)
   }
 
@@ -34,7 +34,7 @@ export default function ContactForm({ form }: { form: ContactData['form'] }) {
         <h3>{form.successTitle}</h3>
         <p style={{ color: 'var(--ink-700)' }}>{form.successText}</p>
         <button className="btn btn-outline" onClick={() => setSent(false)}>
-          Gửi yêu cầu khác
+          {form.resetLabel}
         </button>
       </div>
     )
@@ -44,67 +44,61 @@ export default function ContactForm({ form }: { form: ContactData['form'] }) {
     <form onSubmit={onSubmit}>
       <div className="form-row">
         <div className="form-field">
-          <label htmlFor="cf-name">Họ và tên *</label>
-          <input id="cf-name" required value={name} onChange={(e) => setName(e.target.value)} placeholder="Lorem Ipsum" />
+          <label htmlFor="cf-name">{f.name.label}</label>
+          <input
+            id="cf-name"
+            required
+            autoComplete="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder={f.name.placeholder}
+          />
         </div>
         <div className="form-field">
-          <label htmlFor="cf-phone">Số điện thoại *</label>
+          <label htmlFor="cf-phone">{f.phone.label}</label>
           <input
             id="cf-phone"
             required
             type="tel"
+            autoComplete="tel"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
-            placeholder="0900 000 000"
+            placeholder={f.phone.placeholder}
           />
         </div>
       </div>
 
       <div className="form-row">
         <div className="form-field">
-          <label htmlFor="cf-email">Email</label>
+          <label htmlFor="cf-email">{f.email.label}</label>
           <input
             id="cf-email"
             type="email"
+            autoComplete="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="lorem@ipsum.com"
+            placeholder={f.email.placeholder}
           />
         </div>
         <div className="form-field">
-          <label htmlFor="cf-type">Loại không gian</label>
-          <select id="cf-type" value={type} onChange={(e) => setType(e.target.value)}>
-            {form.spaceTypes.map((t) => (
-              <option key={t}>{t}</option>
-            ))}
-          </select>
-        </div>
-      </div>
-
-      <div className="form-row">
-        <div className="form-field">
-          <label htmlFor="cf-area">Diện tích (m²)</label>
-          <input id="cf-area" type="number" value={area} onChange={(e) => setArea(e.target.value)} placeholder="80" />
-        </div>
-        <div className="form-field">
-          <label htmlFor="cf-style">Phong cách yêu thích</label>
-          <select id="cf-style" value={style} onChange={(e) => setStyle(e.target.value)}>
-            <option value="">— Chọn phong cách —</option>
-            {form.styles.map((s) => (
-              <option key={s}>{s}</option>
+          <label htmlFor="cf-channel">{f.channel.label}</label>
+          <select id="cf-channel" value={channel} onChange={(e) => setChannel(e.target.value)}>
+            <option value="">{f.channel.placeholder}</option>
+            {f.channel.options.map((o) => (
+              <option key={o}>{o}</option>
             ))}
           </select>
         </div>
       </div>
 
       <div className="form-field" style={{ marginBottom: 16 }}>
-        <label htmlFor="cf-message">Mô tả chi tiết yêu cầu</label>
+        <label htmlFor="cf-message">{f.message.label}</label>
         <textarea
           id="cf-message"
-          rows={4}
+          rows={5}
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          placeholder="Lorem ipsum dolor sit amet..."
+          placeholder={f.message.placeholder}
         />
       </div>
 
