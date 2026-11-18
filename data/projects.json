@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "name": "Lorem ipsum 01",
+    "slug": "du-an-01",
+    "category_id": 1,
+    "style": "Lorem",
+    "location": "Lorem ipsum, Dolor sit",
+    "area_sqm": 60,
+    "year_completed": 2020,
+    "budget_label": "Lorem ipsum",
+    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "cover_image": "",
+    "gallery": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "highlights": [
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Sed do eiusmod tempor",
+      "Ut labore et dolore magna"
+    ],
+    "is_featured": true,
+    "is_hero": true,
+    "sort_order": 1
+  },
+  {
+    "id": 2,
+    "name": "Dolor sit 02",
+    "slug": "du-an-02",
+    "category_id": 2,
+    "style": "Ipsum",
+    "location": "Lorem ipsum, Dolor sit",
+    "area_sqm": 75,
+    "year_completed": 2021,
+    "budget_label": "Lorem ipsum",
+    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "cover_image": "",
+    "gallery": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "highlights": [
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Sed do eiusmod tempor",
+      "Ut labore et dolore magna"
+    ],
+    "is_featured": true,
+    "is_hero": false,
+    "sort_order": 2
+  },
+  {
+    "id": 3,
+    "name": "Amet consectetur 03",
+    "slug": "du-an-03",
+    "category_id": 3,
+    "style": "Dolor",
+    "location": "Lorem ipsum, Dolor sit",
+    "area_sqm": 90,
+    "year_completed": 2022,
+    "budget_label": "Lorem ipsum",
+    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "cover_image": "",
+    "gallery": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "highlights": [
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Sed do eiusmod tempor",
+      "Ut labore et dolore magna"
+    ],
+    "is_featured": true,
+    "is_hero": false,
+    "sort_order": 3
+  },
+  {
+    "id": 4,
+    "name": "Adipiscing elit 04",
+    "slug": "du-an-04",
+    "category_id": 4,
+    "style": "Amet",
+    "location": "Lorem ipsum, Dolor sit",
+    "area_sqm": 105,
+    "year_completed": 2023,
+    "budget_label": "Lorem ipsum",
+    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "cover_image": "",
+    "gallery": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "highlights": [
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Sed do eiusmod tempor",
+      "Ut labore et dolore magna"
+    ],
+    "is_featured": true,
+    "is_hero": false,
+    "sort_order": 4
+  },
+  {
+    "id": 5,
+    "name": "Sed do eiusmod 05",
+    "slug": "du-an-05",
+    "category_id": 5,
+    "style": "Lorem",
+    "location": "Lorem ipsum, Dolor sit",
+    "area_sqm": 120,
+    "year_completed": 2024,
+    "budget_label": "Lorem ipsum",
+    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "cover_image": "",
+    "gallery": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "highlights": [
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Sed do eiusmod tempor",
+      "Ut labore et dolore magna"
+    ],
+    "is_featured": true,
+    "is_hero": false,
+    "sort_order": 5
+  },
+  {
+    "id": 6,
+    "name": "Tempor incididunt 06",
+    "slug": "du-an-06",
+    "category_id": 1,
+    "style": "Ipsum",
+    "location": "Lorem ipsum, Dolor sit",
+    "area_sqm": 135,
+    "year_completed": 2020,
+    "budget_label": "Lorem ipsum",
+    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "cover_image": "",
+    "gallery": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "highlights": [
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Sed do eiusmod tempor",
+      "Ut labore et dolore magna"
+    ],
+    "is_featured": true,
+    "is_hero": false,
+    "sort_order": 6
+  },
+  {
+    "id": 7,
+    "name": "Ut labore 07",
+    "slug": "du-an-07",
+    "category_id": 2,
+    "style": "Dolor",
+    "location": "Lorem ipsum, Dolor sit",
+    "area_sqm": 150,
+    "year_completed": 2021,
+    "budget_label": "Lorem ipsum",
+    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "cover_image": "",
+    "gallery": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "highlights": [
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Sed do eiusmod tempor",
+      "Ut labore et dolore magna"
+    ],
+    "is_featured": false,
+    "is_hero": false,
+    "sort_order": 7
+  },
+  {
+    "id": 8,
+    "name": "Et dolore 08",
+    "slug": "du-an-08",
+    "category_id": 3,
+    "style": "Amet",
+    "location": "Lorem ipsum, Dolor sit",
+    "area_sqm": 165,
+    "year_completed": 2022,
+    "budget_label": "Lorem ipsum",
+    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "cover_image": "",
+    "gallery": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "highlights": [
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Sed do eiusmod tempor",
+      "Ut labore et dolore magna"
+    ],
+    "is_featured": false,
+    "is_hero": false,
+    "sort_order": 8
+  },
+  {
+    "id": 9,
+    "name": "Magna aliqua 09",
+    "slug": "du-an-09",
+    "category_id": 4,
+    "style": "Lorem",
+    "location": "Lorem ipsum, Dolor sit",
+    "area_sqm": 180,
+    "year_completed": 2023,
+    "budget_label": "Lorem ipsum",
+    "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+    "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "cover_image": "",
+    "gallery": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "highlights": [
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Sed do eiusmod tempor",
+      "Ut labore et dolore magna"
+    ],
+    "is_featured": false,
+    "is_hero": false,
+    "sort_order": 9
+  }
+]

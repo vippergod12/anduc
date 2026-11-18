@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Lorem ipsum",
+    "slug": "lorem-ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio praesent libero.",
+    "image_url": "",
+    "sort_order": 1
+  },
+  {
+    "id": 2,
+    "name": "Dolor sit",
+    "slug": "dolor-sit",
+    "description": "Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
+    "image_url": "",
+    "sort_order": 2
+  },
+  {
+    "id": 3,
+    "name": "Amet consectetur",
+    "slug": "amet-consectetur",
+    "description": "Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "image_url": "",
+    "sort_order": 3
+  },
+  {
+    "id": 4,
+    "name": "Adipiscing elit",
+    "slug": "adipiscing-elit",
+    "description": "Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora.",
+    "image_url": "",
+    "sort_order": 4
+  },
+  {
+    "id": 5,
+    "name": "Sed do eiusmod",
+    "slug": "sed-do-eiusmod",
+    "description": "Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor.",
+    "image_url": "",
+    "sort_order": 5
+  }
+]

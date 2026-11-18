@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "eyebrow": "LOREM IPSUM · EST 2020",
+    "title": "Lorem ipsum dolor sit *amet*\n& consectetur adipiscing.",
+    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "image": "",
+    "primaryCta": { "label": "Lorem ipsum", "href": "/du-an" },
+    "secondaryCta": { "label": "Dolor sit amet", "href": "/lien-he" },
+    "stats": [
+      { "value": "000+", "label": "Lorem" },
+      { "value": "00", "label": "Ipsum dolor" },
+      { "value": "00%", "label": "Sit amet" }
+    ]
+  },
+  "marquee": ["Lorem", "Ipsum", "Dolor", "Sit amet", "Consectetur", "Adipiscing", "Elit sed", "Eiusmod"],
+  "services": {
+    "eyebrow": "Lorem ipsum",
+    "title": "Lorem ipsum. *Dolor sit.*\nAmet consectetur adipiscing.",
+    "cta": { "label": "Lorem ipsum dolor", "href": "/dich-vu" },
+    "items": [
+      { "num": "01", "title": "Lorem ipsum", "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.", "href": "/dich-vu#dich-vu-01" },
+      { "num": "02", "title": "Dolor sit amet", "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.", "href": "/dich-vu#dich-vu-02" },
+      { "num": "03", "title": "Consectetur", "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.", "href": "/dich-vu#dich-vu-03" },
+      { "num": "04", "title": "Adipiscing elit", "desc": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.", "href": "/dich-vu#dich-vu-04" },
+      { "num": "05", "title": "Sed do eiusmod", "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.", "href": "/dich-vu#dich-vu-05" },
+      { "num": "06", "title": "Tempor incididunt", "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.", "href": "/dich-vu#dich-vu-06" }
+    ]
+  },
+  "categories": {
+    "eyebrow": "Lorem ipsum",
+    "title": "Lorem ipsum — *dolor sit amet*.",
+    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "countSuffix": "dự án"
+  },
+  "featured": {
+    "eyebrow": "Lorem ipsum",
+    "title": "Lorem ipsum *dolor sit amet*\nconsectetur adipiscing.",
+    "cta": { "label": "Lorem ipsum dolor", "href": "/du-an" },
+    "limit": 6
+  },
+  "story": {
+    "image": "",
+    "eyebrow": "Lorem ipsum",
+    "title": "Lorem — *ipsum dolor sit*\namet consectetur adipiscing.",
+    "paragraphs": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. *Excepteur sint occaecat cupidatat non proident.*"
+    ],
+    "stats": [
+      { "value": "000+", "label": "Lorem ipsum" },
+      { "value": "00", "label": "Dolor sit" },
+      { "value": "00", "label": "Amet consectetur" }
+    ],
+    "primaryCta": { "label": "Lorem ipsum", "href": "/ve-chung-toi" },
+    "secondaryCta": { "label": "Dolor sit →", "href": "/du-an" }
+  },
+  "process": {
+    "eyebrow": "Lorem ipsum",
+    "title": "Lorem ipsum dolor sit amet",
+    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "steps": [
+      { "num": "01", "title": "Lorem ipsum", "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor." },
+      { "num": "02", "title": "Dolor sit", "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi." },
+      { "num": "03", "title": "Amet consectetur", "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum." },
+      { "num": "04", "title": "Adipiscing elit", "desc": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia." }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Lorem ipsum",
+    "title": "Lorem ipsum — *dolor sit amet*.",
+    "items": [
+      { "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "name": "Lorem Ipsum", "role": "Dolor sit amet" },
+      { "quote": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", "name": "Dolor Sit", "role": "Consectetur adipiscing" },
+      { "quote": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.", "name": "Amet Elit", "role": "Sed do eiusmod" }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Lorem ipsum dolor",
+    "title": "Lorem ipsum dolor\n*sit amet consectetur?*",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "primaryCta": { "label": "Lorem ipsum", "href": "/lien-he" },
+    "zaloLabel": "Dolor sit Zalo"
+  }
+}

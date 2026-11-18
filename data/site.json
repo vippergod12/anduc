@@ -1,0 +1,38 @@
+{
+  "name": "LOREM Studio",
+  "tagline": "Lorem ipsum dolor sit amet",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "url": "http://localhost:3000",
+  "logo": {
+    "text": "LORE",
+    "accent": "M",
+    "sub": "Ipsum"
+  },
+  "contact": {
+    "zaloPhone": "0900000000",
+    "zaloUrl": "",
+    "hotline": "0900 000 000",
+    "email": "lorem@ipsum.com",
+    "address": "Lorem ipsum dolor, sit amet",
+    "workingHours": "Lorem — Ipsum: 08:00 → 18:00"
+  },
+  "zaloProjectMessage": "Lorem ipsum dolor sit amet: \"{name}\".",
+  "nav": [
+    { "href": "/", "label": "Trang chủ" },
+    { "href": "/du-an", "label": "Dự án" },
+    { "href": "/dich-vu", "label": "Dịch vụ" },
+    { "href": "/ve-chung-toi", "label": "Về chúng tôi" },
+    { "href": "/lien-he", "label": "Liên hệ" }
+  ],
+  "navCta": {
+    "secondary": "Lorem ipsum",
+    "primary": "Dolor sit amet"
+  },
+  "footer": {
+    "servicesTitle": "Dịch vụ",
+    "spacesTitle": "Không gian",
+    "contactTitle": "Liên hệ",
+    "zaloButton": "Lorem Zalo",
+    "callPrefix": "Gọi"
+  }
+}

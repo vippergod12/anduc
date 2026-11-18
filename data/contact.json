@@ -1,0 +1,24 @@
+{
+  "header": {
+    "eyebrow": "Liên hệ",
+    "title": "Lorem ipsum dolor sit",
+    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "formTitle": "Lorem ipsum dolor",
+  "infoTitle": "Thông tin liên hệ",
+  "zaloLabel": "Lorem Zalo",
+  "promo": {
+    "title": "Lorem ipsum dolor",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit:",
+    "items": ["Lorem ipsum dolor sit", "Amet consectetur adipiscing", "Sed do eiusmod tempor"]
+  },
+  "form": {
+    "spaceTypes": ["Lorem ipsum", "Dolor sit", "Amet consectetur", "Adipiscing elit", "Khác"],
+    "styles": ["Lorem", "Ipsum", "Dolor", "Sit amet"],
+    "submitLabel": "Gửi yêu cầu",
+    "note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "successTitle": "Lorem ipsum!",
+    "successText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "zaloGreeting": "Lorem ipsum!"
+  }
+}

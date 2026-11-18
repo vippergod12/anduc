@@ -1,0 +1,37 @@
+{
+  "header": {
+    "eyebrow": "Về chúng tôi",
+    "title": "Lorem ipsum dolor",
+    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "story": {
+    "image": "",
+    "eyebrow": "Lorem ipsum",
+    "title": "Lorem ipsum dolor sit amet",
+    "paragraphs": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    ],
+    "cta": { "label": "Lorem ipsum", "href": "/du-an" }
+  },
+  "values": {
+    "eyebrow": "Lorem ipsum",
+    "title": "Lorem ipsum dolor sit",
+    "items": [
+      { "title": "Lorem ipsum", "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do." },
+      { "title": "Dolor sit", "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco." },
+      { "title": "Amet consectetur", "desc": "Duis aute irure dolor in reprehenderit in voluptate velit." },
+      { "title": "Adipiscing elit", "desc": "Excepteur sint occaecat cupidatat non proident, sunt in culpa." }
+    ]
+  },
+  "team": {
+    "eyebrow": "Lorem ipsum",
+    "title": "Lorem ipsum *dolor sit*",
+    "members": [
+      { "name": "Lorem Ipsum", "role": "Dolor sit amet", "img": "" },
+      { "name": "Dolor Sit", "role": "Consectetur adipiscing", "img": "" },
+      { "name": "Amet Elit", "role": "Sed do eiusmod", "img": "" },
+      { "name": "Tempor Magna", "role": "Ut labore et dolore", "img": "" }
+    ]
+  }
+}

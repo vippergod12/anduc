@@ -1,0 +1,54 @@
+{
+  "header": {
+    "eyebrow": "Lorem ipsum",
+    "title": "Lorem ipsum — dolor sit amet",
+    "lead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "packs": [
+    {
+      "id": "dich-vu-01",
+      "title": "01 — Lorem ipsum",
+      "price": "Lorem",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "items": ["Lorem ipsum dolor", "Sit amet consectetur", "Adipiscing elit sed", "Do eiusmod tempor"]
+    },
+    {
+      "id": "dich-vu-02",
+      "title": "02 — Dolor sit amet",
+      "price": "Ipsum",
+      "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+      "items": ["Lorem ipsum dolor", "Sit amet consectetur", "Adipiscing elit sed", "Do eiusmod tempor"]
+    },
+    {
+      "id": "dich-vu-03",
+      "title": "03 — Consectetur",
+      "price": "Dolor",
+      "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.",
+      "items": ["Lorem ipsum dolor", "Sit amet consectetur", "Adipiscing elit sed", "Do eiusmod tempor"]
+    },
+    {
+      "id": "dich-vu-04",
+      "title": "04 — Adipiscing elit",
+      "price": "Sit amet",
+      "desc": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.",
+      "items": ["Lorem ipsum dolor", "Sit amet consectetur", "Adipiscing elit sed", "Do eiusmod tempor"]
+    },
+    {
+      "id": "dich-vu-05",
+      "title": "05 — Sed do eiusmod",
+      "price": "Consectetur",
+      "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "items": ["Lorem ipsum dolor", "Sit amet consectetur", "Adipiscing elit sed", "Do eiusmod tempor"]
+    },
+    {
+      "id": "dich-vu-06",
+      "title": "06 — Tempor incididunt",
+      "price": "Adipiscing",
+      "desc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.",
+      "items": ["Lorem ipsum dolor", "Sit amet consectetur", "Adipiscing elit sed", "Do eiusmod tempor"]
+    }
+  ],
+  "note": "* Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "primaryCta": { "label": "Lorem ipsum dolor", "href": "/lien-he" },
+  "zaloLabel": "Sit amet Zalo"
+}
