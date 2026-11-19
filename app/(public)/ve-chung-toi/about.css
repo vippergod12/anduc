@@ -850,3 +850,135 @@ a.ab-partner:focus-visible {
     display: none;
   }
 }
+
+/* =====================================================
+   MOBILE (≤ 765px) — trang Giới thiệu
+   ===================================================== */
+@media (max-width: 765px) {
+  /* Hero */
+  .ab-hero { padding: 40px 0 48px; }
+  .ab-hero h1 { font-size: clamp(2.3rem, 10vw, 2.9rem); margin: 14px 0 10px; }
+  .ab-hero-sub { font-size: 1.12rem; margin-bottom: 14px; }
+  .ab-hero-lead { font-size: 15px; line-height: 1.7; }
+  .ab-facts {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 28px;
+    padding-top: 0;
+    border-top: none;
+  }
+  .ab-facts > div {
+    padding: 14px 16px;
+    border-radius: var(--radius);
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid var(--border);
+  }
+  .ab-facts > div { justify-content: flex-end; }
+  .ab-facts dd { font-size: 1.7rem; }
+  .ab-facts dt { font-size: 12.5px; line-height: 1.4; }
+
+  /* Điều hướng 4 mùa: lưới 2×2 gọn */
+  .ab-journey { margin-top: 28px; }
+  .ab-journey ol { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .ab-journey-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 14px;
+  }
+  .ab-journey-icon { flex-basis: auto; width: 36px; height: 36px; }
+  .ab-journey-text strong { font-size: 14.5px; }
+  .ab-journey-text span { font-size: 12.5px; }
+  .ab-journey-num { display: none; }
+
+  /* Khung mùa */
+  .ab-season { padding: 64px 0; }
+  .ab-season-head { margin-bottom: 28px; }
+  .ab-season-head h2 { font-size: clamp(1.65rem, 7vw, 2.1rem); margin: 16px 0 12px; }
+  .ab-lead { font-size: 15px; }
+  .ab-badge { font-size: 12px; padding: 7px 12px 7px 10px; gap: 8px; }
+
+  /* Xuân: câu chuyện + đội ngũ */
+  .ab-story { gap: 20px; margin-top: 20px; }
+  .ab-story-title { font-size: clamp(1.4rem, 6vw, 1.75rem); line-height: 1.3; }
+  .ab-story-body p { font-size: 15.5px; line-height: 1.8; margin-bottom: 14px; }
+  .ab-wide-media { margin-top: 28px; aspect-ratio: 16 / 10; border-radius: var(--radius); }
+  .ab-team { margin-top: 48px; }
+  .ab-team-head h3 { font-size: 1.5rem; }
+  .ab-team-head .ab-muted { font-size: 14.5px; }
+  .ab-team-list {
+    grid-auto-columns: 62%;
+    margin: 0 -20px;
+    padding: 0 20px 12px;
+    scroll-padding: 0 20px;
+    scrollbar-width: none;
+  }
+  .ab-team-list::-webkit-scrollbar { display: none; }
+  .ab-member { padding: 12px 12px 16px; border-radius: var(--radius); }
+  .ab-member strong { font-size: 1.05rem; }
+
+  /* Hạ: ba trụ cột → carousel vuốt ngang */
+  .ab-pillars-grid {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 84%;
+    gap: 14px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin: 0 -20px;
+    padding: 4px 20px 18px;
+    scroll-padding: 0 20px;
+    scrollbar-width: none;
+  }
+  .ab-pillars-grid::-webkit-scrollbar { display: none; }
+  .ab-pillar { scroll-snap-align: start; padding: 22px; }
+  .ab-pillar:hover { transform: none; }
+  .ab-pillar-icon { width: 52px; height: 52px; border-radius: 14px; }
+  .ab-pillar h3 { font-size: 1.25rem; }
+  .ab-pillar p { font-size: 14.5px; }
+
+  /* Thu: giá trị — ảnh gọn, số + tiêu đề cùng hàng */
+  .ab-zlist { gap: 36px; }
+  .ab-zrow { gap: 16px; }
+  .ab-zmedia { aspect-ratio: 16 / 10; border-radius: var(--radius); }
+  .ab-zmedia figcaption { font-size: 11.5px; left: 10px; right: 10px; bottom: 10px; padding: 6px 10px; }
+  .ab-ztext { display: grid; grid-template-columns: auto 1fr; column-gap: 12px; align-items: baseline; }
+  .ab-znum { font-size: 2rem; opacity: 0.7; }
+  .ab-ztext h3 { font-size: 1.3rem; margin: 0; }
+  .ab-ztext p,
+  .ab-ztext blockquote { grid-column: 1 / -1; }
+  .ab-ztext p { font-size: 15px; margin-top: 10px; }
+  .ab-ztext blockquote { font-size: 1rem; margin-top: 14px; }
+
+  /* Đông: lộ trình */
+  .ab-path::before { left: 21px; }
+  .ab-path-step { grid-template-columns: 44px 1fr; gap: 12px; margin-bottom: 12px; }
+  .ab-path-dot { width: 44px; height: 44px; font-size: 14px; }
+  .ab-path-card { padding: 16px 18px; border-radius: var(--radius); }
+  .ab-path-card h3 { font-size: 1.12rem; }
+  .ab-path-card p { font-size: 14px; }
+
+  /* Đối tác: lưới 2 cột */
+  .ab-partners { padding: 64px 0; }
+  .ab-partners-head { text-align: left; margin-bottom: 24px; }
+  .ab-partners-head h2 { font-size: clamp(1.6rem, 7vw, 2rem); }
+  .ab-partner-group h3 { text-align: left; }
+  .ab-partner-list { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .ab-partner { padding: 14px 10px; border-radius: var(--radius); }
+  .ab-partner-logo { height: 56px; margin-bottom: 4px; }
+  .ab-partner-logo img { max-height: 56px; max-width: 120px; }
+  .ab-partner-name { font-size: 12.5px; }
+  .ab-partner-en { font-size: 11px; }
+
+  /* CTA */
+  .ab-cta { margin-top: 56px; text-align: left; }
+  .ab-cta h2 { font-size: clamp(1.7rem, 7vw, 2.1rem); margin: 4px 0 12px; }
+  .ab-cta > p:not(.ab-kicker) { margin: 0; font-size: 15px; }
+  .ab-cta-actions { flex-direction: column; align-items: stretch; }
+  .ab-cta-actions .btn { width: 100%; }
+
+  /* Thanh hiệu ứng mùa: gọn, chỉ icon + nút */
+  .season-fx-ui { left: 12px; bottom: 14px; padding: 4px 4px 4px 10px; gap: 8px; }
+  .season-fx-now > span { display: none; }
+  .season-fx-toggle { padding: 7px 12px; font-size: 11.5px; }
+}

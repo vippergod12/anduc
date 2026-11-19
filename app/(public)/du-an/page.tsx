@@ -40,7 +40,7 @@ export default function ProjectsPage({ searchParams }: PageProps) {
               type="search"
               name="q"
               aria-label="Tìm dự án"
-              placeholder="Tìm theo tên dự án, lĩnh vực, trạng thái..."
+              placeholder="Tìm dự án..."
               defaultValue={q}
             />
             <button type="submit" className="btn btn-primary">
@@ -74,7 +74,7 @@ export default function ProjectsPage({ searchParams }: PageProps) {
               .
             </div>
           ) : (
-            <div className="grid grid-3">
+            <div className="grid grid-3 m-list">
               {projects.map((p) => (
                 <ProjectCard key={p.id} p={p} />
               ))}

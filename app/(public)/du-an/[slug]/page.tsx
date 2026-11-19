@@ -169,7 +169,7 @@ export default function ProjectDetail({ params }: Params) {
                 Xem tất cả
               </Link>
             </div>
-            <div className="grid grid-3">
+            <div className="grid grid-3 m-list">
               {related.map((r) => (
                 <ProjectCard key={r.id} p={r} />
               ))}

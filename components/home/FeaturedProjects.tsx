@@ -26,7 +26,7 @@ export default function FeaturedProjects({
           </Link>
         </div>
 
-        <div className="grid grid-3">
+        <div className="grid grid-3 m-carousel">
           {projects.map((p) => (
             <ProjectCard key={p.id} p={p} />
           ))}

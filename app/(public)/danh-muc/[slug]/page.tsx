@@ -94,7 +94,7 @@ export default function CategoryPage({ params }: Params) {
               .
             </div>
           ) : (
-            <div className="grid grid-3">
+            <div className="grid grid-3 m-list">
               {projects.map((p) => (
                 <ProjectCard key={p.id} p={p} />
               ))}

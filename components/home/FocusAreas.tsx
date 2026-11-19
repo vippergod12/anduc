@@ -22,7 +22,7 @@ export default function FocusAreas({ data, categories }: { data: HomeData['focus
           </Link>
         </div>
 
-        <div className="grid grid-3">
+        <div className="grid grid-3 m-carousel">
           {categories.map((c) => (
             <Link key={c.id} href={`/danh-muc/${c.slug}`} className="focus-card">
               <div className="focus-thumb">
